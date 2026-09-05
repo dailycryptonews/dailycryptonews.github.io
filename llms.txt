@@ -1,7 +1,8 @@
-# The Ledger
-
-crypto news and analysis.
-
+# Blockprint
+Capital, code, and chain reactions.
+Blockprint is an independent crypto news publication covering markets, protocol upgrades, on-chain data, stablecoins, and digital-asset infrastructure.
+It explains the evidence behind token moves and separates durable developments from market noise.
+Coverage is written for readers who want clear reporting and practical context.
 ## Key pages
-- https://dailycryptonews.github.io/
-- https://dailycryptonews.github.io/about/
+- Home: https://dailycryptonews.github.io/ — Reverse-chronological crypto news feed.
+- About: https://dailycryptonews.github.io/about/ — Editorial mission and information about the editor.
