@@ -1,8 +1,9 @@
-# Blockprint
-Capital, code, and chain reactions.
-Blockprint is an independent crypto news publication covering markets, protocol upgrades, on-chain data, stablecoins, and digital-asset infrastructure.
-It explains the evidence behind token moves and separates durable developments from market noise.
-Coverage is written for readers who want clear reporting and practical context.
+# Crypto Operations Times
+
+> Independent crypto infrastructure news and analysis for builders and developers.
+
+Coverage follows production systems, operating costs, failures and recovery.
+
 ## Key pages
-- Home: https://dailycryptonews.github.io/ — Reverse-chronological crypto news feed.
-- About: https://dailycryptonews.github.io/about/ — Editorial mission and information about the editor.
+- [Homepage](https://dailycryptonews.github.io/): Latest reporting and analysis.
+- [About](https://dailycryptonews.github.io/about/): Editorial scope, independence, sourcing and corrections.

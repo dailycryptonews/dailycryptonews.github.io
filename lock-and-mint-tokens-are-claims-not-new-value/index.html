@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>How Token Lock-and-Mint Systems Work | Blockprint</title>
+<title>How Token Lock-and-Mint Systems Work</title>
 <meta name="description" content="Lock-and-mint systems expand token access by issuing a claim against locked assets, but custody, redemption delays, and governance decide who absorbs the loss.">
 <link rel="canonical" href="https://dailycryptonews.github.io/lock-and-mint-tokens-are-claims-not-new-value/">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
-<meta name="theme-color" content="#f4f0e7">
-<meta name="author" content="Mara Ellison"><meta property="og:type" content="article">
-<meta property="og:site_name" content="Blockprint">
+<meta name="theme-color" content="#F2EDE3">
+<meta name="author" content="The Crypto Operations Times Editors"><meta property="og:type" content="article">
+<meta property="og:site_name" content="Crypto Operations Times">
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="Lock-and-Mint Tokens Are Claims, Not New Value">
 <meta property="og:description" content="Lock-and-mint systems expand token access by issuing a claim against locked assets, but custody, redemption delays, and governance decide who absorbs the loss.">
@@ -21,13 +21,15 @@
 <meta name="twitter:title" content="Lock-and-Mint Tokens Are Claims, Not New Value">
 <meta name="twitter:description" content="Lock-and-mint systems expand token access by issuing a claim against locked assets, but custody, redemption delays, and governance decide who absorbs the loss.">
 <meta property="article:published_time" content="2026-09-08T07:32:35">
+<meta property="article:section" content="Smart contract deployments and recovery"><meta property="article:tag" content="Smart contract deployments and recovery">
+<meta property="article:tag" content="Transaction delivery and fee budgets">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap">
-<link rel="stylesheet" href="/assets/s1254149648.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap">
+<link rel="stylesheet" href="/assets/s4aae8be132.css">
 <link rel="icon" href="/assets/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
-<link rel="alternate" type="application/rss+xml" title="Blockprint" href="/feed.xml"><script type="application/ld+json">
+<link rel="alternate" type="application/rss+xml" title="Crypto Operations Times" href="/feed.xml"><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -35,7 +37,7 @@
       "@type": "WebPage",
       "@id": "https://dailycryptonews.github.io/lock-and-mint-tokens-are-claims-not-new-value/#webpage",
       "url": "https://dailycryptonews.github.io/lock-and-mint-tokens-are-claims-not-new-value/",
-      "name": "How Token Lock-and-Mint Systems Work | Blockprint",
+      "name": "How Token Lock-and-Mint Systems Work",
       "isPartOf": {
         "@id": "https://dailycryptonews.github.io/#website"
       },
@@ -57,11 +59,13 @@
       "author": {
         "@type": "Organization",
         "@id": "https://dailycryptonews.github.io/#org",
-        "name": "Mara Ellison"
+        "name": "The Crypto Operations Times Editors"
       },
       "publisher": {
         "@id": "https://dailycryptonews.github.io/#org"
       },
+      "keywords": "Smart contract deployments and recovery, Transaction delivery and fee budgets",
+      "articleSection": "Smart contract deployments and recovery",
       "wordCount": 632,
       "image": {
         "@type": "ImageObject",
@@ -90,7 +94,7 @@
     {
       "@type": "Organization",
       "@id": "https://dailycryptonews.github.io/#org",
-      "name": "Blockprint",
+      "name": "Crypto Operations Times",
       "url": "https://dailycryptonews.github.io/",
       "logo": {
         "@type": "ImageObject",
@@ -100,13 +104,13 @@
     {
       "@type": "WebSite",
       "@id": "https://dailycryptonews.github.io/#website",
-      "name": "Blockprint",
+      "name": "Crypto Operations Times",
       "url": "https://dailycryptonews.github.io/",
       "publisher": {
         "@id": "https://dailycryptonews.github.io/#org"
       },
       "inLanguage": "en-US",
-      "description": "Blockprint covers crypto markets, protocol upgrades, on-chain shifts, and the people shaping digital assets—with clear reporting for curious investors."
+      "description": "Crypto news for builders and developers, covering node operations, RPC failures, contract upgrades and the engineering costs of keeping applications online."
     }
   ]
 }
@@ -116,35 +120,30 @@
 <a class="skip" href="#main">Skip to the article</a>
 <header class="site-head">
   <div class="wrap head-inner">
-    <a class="brand" href="/" aria-label="Blockprint — home">
-      <span class="brand-mark" aria-hidden="true">B</span>
-      <span class="brand-name">Blockprint</span>
+    <a class="brand" href="/" aria-label="Crypto Operations Times — home">
+      <span class="brand-mark" aria-hidden="true">CT</span>
+      <span class="brand-name">Crypto Operations Times</span>
     </a>
   </div>
 </header>
 
 <main id="main">
-<section class="article-head">
-  <div class="wrap article-header-grid">
-    <div class="article-title-block">
-      <p class="story-kicker">crypto</p>
-      <h1>Lock-and-Mint Tokens Are Claims, Not New Value</h1>
-      <p class="article-dek">Lock-and-mint systems expand token access by issuing a claim against locked assets, but custody, redemption delays, and governance decide who absorbs the loss.</p>
-      <p class="article-meta">By Mara Ellison <span>·</span> <time datetime="2026-09-08T07:32:35">Sep 8, 2026</time> <span>·</span> 3 min read</p>
-    </div>
-  </div>
-</section>
+<article class="wrap article-page">
+  <header class="article-header">
+    <p class="kicker"><span class="ct-motif" aria-hidden="true">CT</span> crypto</p>
+    <h1>Lock-and-Mint Tokens Are Claims, Not New Value</h1>
+    <p class="article-dek">Lock-and-mint systems expand token access by issuing a claim against locked assets, but custody, redemption delays, and governance decide who absorbs the loss.</p>
+    <div class="article-meta meta">
+      <span class="byline">By <span>The Crypto Operations Times Editors</span></span>
+      <time datetime="2026-09-08T07:32:35">Sep 8, 2026</time>
+<span>3 min read</span>    </div>
+  </header>
 
-<section class="article-cover-section">
-  <div class="wrap">
-    <img class="article-cover" src="/assets/covers/lock-and-mint-tokens-are-claims-not-new-value.jpg" alt="Lock-and-Mint Tokens Are Claims, Not New Value">
-  </div>
-</section>
+  <figure class="article-cover">
+    <img src="/assets/covers/lock-and-mint-tokens-are-claims-not-new-value.jpg" alt="Lock-and-Mint Tokens Are Claims, Not New Value" width="1200" height="630" fetchpriority="high" decoding="async">
+  </figure>
 
-<section class="article-content">
-  <div class="wrap article-layout">
-    <article class="prose">
-      <p>Token lock-and-mint systems create a tradeable claim on assets held elsewhere: a contract locks the original token, then another contract mints a representation on a different chain or application. The verdict is simple: this design improves liquidity and reach, but it creates no new value. The user receives convenience; the bridge, custodian, or multisig controls the vault, while holders absorb the damage when the reserve, redemption process, or governance fails.</p>
+  <div class="prose"><p>Token lock-and-mint systems create a tradeable claim on assets held elsewhere: a contract locks the original token, then another contract mints a representation on a different chain or application. The verdict is simple: this design improves liquidity and reach, but it creates no new value. The user receives convenience; the bridge, custodian, or multisig controls the vault, while holders absorb the damage when the reserve, redemption process, or governance fails.</p>
 
 <h2>What happens when a token is locked and minted?</h2>
 
@@ -171,33 +170,43 @@
 
 <p>That weakest link may be a smart-contract bug, a forged deposit proof, a frozen validator set, a custodian bankruptcy, or a governance vote that changes the rules. It can also be a mismatch in what “backed” means. One system may lock the exact native asset; another may rely on a basket, a debt position, or an issuer's promise to make markets. Readers comparing designs should inspect the actual vault address, mint authority, burn requirement, withdrawal threshold, pause power, and reserve reports—not the wrapper's familiar ticker. The explainer on ParaSwap and Wrapped Tokens is a useful reference for separating movement of identity from movement of value.</p>
 
-<p>Lock-and-mint is therefore best understood as an accounting machine with a bridge attached. It can make one asset legible to another network and unlock useful markets, but it cannot erase custody, delay, or insolvency risk. Calling the minted token “the same asset” without naming the party that can stop redemption is the dishonest part of the pitch.</p>
-    </article>
+<p>Lock-and-mint is therefore best understood as an accounting machine with a bridge attached. It can make one asset legible to another network and unlock useful markets, but it cannot erase custody, delay, or insolvency risk. Calling the minted token “the same asset” without naming the party that can stop redemption is the dishonest part of the pitch.</p></div>
 
-      <aside class="related">
-        <div class="section-head">
-          <p>Continue reading</p>
-          <span>Blockprint</span>
-        </div>
-        <ol>
-            <li><a href="/canonical-means-who-controls-the-claim/">Canonical Means Who Controls the Claim</a></li>
-        </ol>
-      </aside>
-  </div>
-</section>
+  <section class="article-topics" aria-labelledby="article-topics-heading">
+    <h2 id="article-topics-heading"><span class="ct-motif" aria-hidden="true">CT</span> Filed under</h2>
+    <ul class="tag-list">
+      <li>Smart contract deployments and recovery</li>
+      <li>Transaction delivery and fee budgets</li>
+    </ul>
+  </section>
+
+  <section class="related" aria-labelledby="related-heading">
+    <div class="section-heading">
+      <h2 id="related-heading"><span class="ct-motif" aria-hidden="true">CT</span> Continue reading</h2>
+    </div>
+    <ul class="related-list">
+      <li><a href="/canonical-means-who-controls-the-claim/">Canonical Means Who Controls the Claim</a></li>
+      <li><a href="/core-lightning-26-06-7-check-the-artifact-before-restart/">Core Lightning 26.06.7: Check the Artifact Before Restart</a></li>
+    </ul>
+  </section>
+</article>
 </main>
 
 <footer class="site-foot">
   <div class="wrap foot-inner">
-    <div class="foot-brand"><span class="brand-mark small" aria-hidden="true">B</span> Blockprint</div>
+    <div class="foot-brand"><span class="brand-mark small" aria-hidden="true">CT</span> Crypto Operations Times</div>
     <nav class="foot-nav" aria-label="Sections">
 <a href="/">Start</a>
 <a href="/about/">Masthead</a>
 <a href="/privacy/">Privacy &amp; terms</a>
 <a href="/archive/">All posts</a>
+<a href="/topics/node-operations-and-client-upgrades/">Node operations and client upgrades</a>
+<a href="/topics/transaction-delivery-and-fee-budgets/">Transaction delivery and fee budgets</a>
+<a href="/topics/key-management-and-incident-response/">Key management and incident response</a>
+<a href="/topics/smart-contract-deployments-and-recovery/">Smart contract deployments and recovery</a>
     </nav>
-    <p class="foot-note">Blockprint is an independent publication, not affiliated with or endorsed by any protocol, exchange, or project it covers; nothing here is financial advice.</p>
-    <p class="foot-meta">© 2026 Blockprint</p>
+    <p class="foot-note">We are an independent publication, not affiliated with or endorsed by any protocol, exchange or project we cover; nothing here is financial advice.</p>
+    <p class="foot-meta">© 2026 Crypto Operations Times</p>
   </div>
 </footer>
 </body>

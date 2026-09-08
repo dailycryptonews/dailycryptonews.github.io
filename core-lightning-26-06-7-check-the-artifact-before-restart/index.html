@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en-US" data-mode="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core Lightning 26.06.7 Upgrade Checks</title>
+<meta name="description" content="Core Lightning 26.06.7 fixes undisclosed flaws; Docker users must verify image digests, while VLS operators must update a version gate before restart.">
+<link rel="canonical" href="https://dailycryptonews.github.io/core-lightning-26-06-7-check-the-artifact-before-restart/">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="theme-color" content="#F2EDE3">
+<meta name="author" content="The Crypto Operations Times Editors"><meta property="og:type" content="article">
+<meta property="og:site_name" content="Crypto Operations Times">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Core Lightning 26.06.7: Check the Artifact Before Restart">
+<meta property="og:description" content="Core Lightning 26.06.7 fixes undisclosed flaws; Docker users must verify image digests, while VLS operators must update a version gate before restart.">
+<meta property="og:url" content="https://dailycryptonews.github.io/core-lightning-26-06-7-check-the-artifact-before-restart/">
+<meta property="og:image" content="https://dailycryptonews.github.io/assets/covers/core-lightning-26-06-7-check-the-artifact-before-restart.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Core Lightning 26.06.7: Check the Artifact Before Restart"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Core Lightning 26.06.7: Check the Artifact Before Restart">
+<meta name="twitter:description" content="Core Lightning 26.06.7 fixes undisclosed flaws; Docker users must verify image digests, while VLS operators must update a version gate before restart.">
+<meta property="article:published_time" content="2026-09-08T11:18:18">
+<meta property="article:section" content="Node operations and client upgrades"><meta property="article:tag" content="Node operations and client upgrades">
+<meta property="article:tag" content="Key management and incident response">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap">
+<link rel="stylesheet" href="/assets/s4aae8be132.css">
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Crypto Operations Times" href="/feed.xml"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://dailycryptonews.github.io/core-lightning-26-06-7-check-the-artifact-before-restart/#webpage",
+      "url": "https://dailycryptonews.github.io/core-lightning-26-06-7-check-the-artifact-before-restart/",
+      "name": "Core Lightning 26.06.7 Upgrade Checks",
+      "isPartOf": {
+        "@id": "https://dailycryptonews.github.io/#website"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dailycryptonews.github.io/core-lightning-26-06-7-check-the-artifact-before-restart/#article",
+      "headline": "Core Lightning 26.06.7: Check the Artifact Before Restart",
+      "isAccessibleForFree": true,
+      "description": "Core Lightning 26.06.7 fixes undisclosed flaws; Docker users must verify image digests, while VLS operators must update a version gate before restart.",
+      "datePublished": "2026-09-08T11:18:18",
+      "dateModified": "2026-09-08T11:18:18",
+      "url": "https://dailycryptonews.github.io/core-lightning-26-06-7-check-the-artifact-before-restart/",
+      "mainEntityOfPage": {
+        "@id": "https://dailycryptonews.github.io/core-lightning-26-06-7-check-the-artifact-before-restart/#webpage"
+      },
+      "inLanguage": "en-US",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dailycryptonews.github.io/#org",
+        "name": "The Crypto Operations Times Editors"
+      },
+      "publisher": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "keywords": "Node operations and client upgrades, Key management and incident response",
+      "articleSection": "Node operations and client upgrades",
+      "wordCount": 527,
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/covers/core-lightning-26-06-7-check-the-artifact-before-restart.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dailycryptonews.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Core Lightning 26.06.7: Check the Artifact Before Restart",
+          "item": "https://dailycryptonews.github.io/core-lightning-26-06-7-check-the-artifact-before-restart/"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dailycryptonews.github.io/#org",
+      "name": "Crypto Operations Times",
+      "url": "https://dailycryptonews.github.io/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/apple-touch-icon.png"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dailycryptonews.github.io/#website",
+      "name": "Crypto Operations Times",
+      "url": "https://dailycryptonews.github.io/",
+      "publisher": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "inLanguage": "en-US",
+      "description": "Crypto news for builders and developers, covering node operations, RPC failures, contract upgrades and the engineering costs of keeping applications online."
+    }
+  ]
+}
+</script>
+</head>
+<body data-page="post">
+<a class="skip" href="#main">Skip to the article</a>
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="brand" href="/" aria-label="Crypto Operations Times — home">
+      <span class="brand-mark" aria-hidden="true">CT</span>
+      <span class="brand-name">Crypto Operations Times</span>
+    </a>
+  </div>
+</header>
+
+<main id="main">
+<article class="wrap article-page">
+  <header class="article-header">
+    <p class="kicker"><span class="ct-motif" aria-hidden="true">CT</span> Node operations and client upgrades</p>
+    <h1>Core Lightning 26.06.7: Check the Artifact Before Restart</h1>
+    <p class="article-dek">Core Lightning 26.06.7 fixes undisclosed flaws; Docker users must verify image digests, while VLS operators must update a version gate before restart.</p>
+    <div class="article-meta meta">
+      <span class="byline">By <span>The Crypto Operations Times Editors</span></span>
+      <time datetime="2026-09-08T11:18:18">Sep 8, 2026</time>
+<span>2 min read</span>    </div>
+  </header>
+
+  <figure class="article-cover">
+    <img src="/assets/covers/core-lightning-26-06-7-check-the-artifact-before-restart.jpg" alt="Core Lightning 26.06.7: Check the Artifact Before Restart" width="1200" height="630" fetchpriority="high" decoding="async">
+  </figure>
+
+  <div class="prose"><p>Core Lightning 26.06.7 belongs in your next controlled upgrade window, but confirming the artifact matters more than confirming the version string. The security release contains fixes for undisclosed vulnerabilities reported during August, requires a <strong>lightningd</strong> restart and performs any necessary database changes automatically at startup. The immediate trade-off is unusual: operators must trust signed binaries before they can inspect the source, which is scheduled for publication on September 11.</p>
+
+<h2>Why must Docker operators verify the 26.06.7 image?</h2>
+<p>Docker operators must verify the image because some containers labeled 26.06.7 did not contain the security fixes. From August 28 at 16:04 UTC until September 1, automated publishing built the <strong>v26.06.7</strong> and <strong>latest</strong> tags from a placeholder tag. Those images announced the expected version during startup, so checking <strong>lightning-cli getinfo</strong> or a startup log could produce a false assurance.</p>
+
+<p>The execution path is the operational failure here: CI selected a placeholder tag, the registry attached mutable release labels, the operator pulled one of those labels, and the process reported the intended version. Trusting metadata gave the publishing system permission to define what “26.06.7” meant. The corrected standard image has manifest digest <strong>sha256:0421a5f0d1b2e1ad639edfa17d777816040e3850d91bae7f2d32186d9c1e6da4</strong>. Images pinned to 26.06.6 or earlier were not part of this packaging incident, though they still lack the new security fixes.</p>
+
+<ul>
+<li>Inspect the local image digest rather than relying on its tag or reported version.</li>
+<li>Re-pull 26.06.7 if the digest differs from the published value.</li>
+<li>Verify downloaded tarball checksums and maintainer signatures before installation.</li>
+<li>For VLS, change <strong>VLS_CLN_VERSION</strong> to <strong>v26.06.7</strong> before restarting.</li>
+</ul>
+
+<h2>Should operators wait for the Core Lightning source code?</h2>
+<p>Operators should install a verified binary now rather than remain exposed while waiting for the source. The project’s 14-day embargo denies attackers an immediate patch diff while giving nodes time to update. That reduces disclosure risk, but it temporarily replaces the normal inspect-build-deploy procedure with trust in maintainer signatures and signed checksum manifests.</p>
+
+<p>A signed manifest already commits to the withheld source archive’s checksum, so the source published after the embargo can be checked against that prior commitment. It does not yet let an operator audit the vulnerable execution path or reproduce the installed binary. The release also used non-default optimization settings; exact reproduction instructions are promised with the source. I would accept that temporary verification gap because the alternative is knowingly running a superseded security build.</p>
+
+<h2>What should the Core Lightning upgrade runbook change?</h2>
+<p>The runbook should promote artifact identity, signer verification and post-restart health checks to release gates. Schedule a brief payment and routing interruption, record the current database backup and image digest, install the signed artifact, then restart and confirm peer reconnection, block synchronization, channel states and plugin availability. Alert when a running container’s digest differs from the approved manifest—not merely when its version is old.</p>
+
+<p>Keep the previous binary or container reference and the pre-upgrade database backup as separate recovery assets. The documentation says no manual database migration is required beyond automatic startup work, but it does not establish that downgrading those updated files is safe. Until that rollback path is tested, recovery should mean restoring the matching backup with the previous build, not starting an older binary against the post-upgrade database.</p></div>
+
+  <section class="article-topics" aria-labelledby="article-topics-heading">
+    <h2 id="article-topics-heading"><span class="ct-motif" aria-hidden="true">CT</span> Filed under</h2>
+    <ul class="tag-list">
+      <li>Node operations and client upgrades</li>
+      <li>Key management and incident response</li>
+    </ul>
+  </section>
+
+  <section class="related" aria-labelledby="related-heading">
+    <div class="section-heading">
+      <h2 id="related-heading"><span class="ct-motif" aria-hidden="true">CT</span> Continue reading</h2>
+    </div>
+    <ul class="related-list">
+      <li><a href="/canonical-means-who-controls-the-claim/">Canonical Means Who Controls the Claim</a></li>
+      <li><a href="/lock-and-mint-tokens-are-claims-not-new-value/">Lock-and-Mint Tokens Are Claims, Not New Value</a></li>
+    </ul>
+  </section>
+</article>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap foot-inner">
+    <div class="foot-brand"><span class="brand-mark small" aria-hidden="true">CT</span> Crypto Operations Times</div>
+    <nav class="foot-nav" aria-label="Sections">
+<a href="/">Start</a>
+<a href="/about/">Masthead</a>
+<a href="/privacy/">Privacy &amp; terms</a>
+<a href="/archive/">All posts</a>
+<a href="/topics/node-operations-and-client-upgrades/">Node operations and client upgrades</a>
+<a href="/topics/transaction-delivery-and-fee-budgets/">Transaction delivery and fee budgets</a>
+<a href="/topics/key-management-and-incident-response/">Key management and incident response</a>
+<a href="/topics/smart-contract-deployments-and-recovery/">Smart contract deployments and recovery</a>
+    </nav>
+    <p class="foot-note">We are an independent publication, not affiliated with or endorsed by any protocol, exchange or project we cover; nothing here is financial advice.</p>
+    <p class="foot-meta">© 2026 Crypto Operations Times</p>
+  </div>
+</footer>
+</body>
+</html>
