@@ -1,9 +1,10 @@
-# Paraswap Dispatch
-> Independent reporting on Paraswap execution, routing and developer integrations.
-We cover routing mechanics, execution costs, liquidity sources and contract changes.
-Our reporting prioritizes on-chain evidence, reproducible comparisons and practical implications for developers.
-We distinguish measured results from estimates and correct material errors visibly.
+# Daily Paraswap News
+
+> Daily reporting on decentralized exchange flows, ParaSwap routing, liquidity shifts and trading costs, with on-chain evidence for active crypto traders.
+
+Coverage: Swap Routing, DEX Liquidity, Trading Costs, Protocol Governance, Onchain Flows.
 
 ## Key pages
-- [Homepage](https://dailycryptonews.github.io/)
-- [About](https://dailycryptonews.github.io/about/)
+- [Homepage](https://dailycryptonews.github.io/): latest reporting and analysis.
+- [About](https://dailycryptonews.github.io/about/): editorial scope, independence, sourcing and corrections.
+- [Archive](https://dailycryptonews.github.io/archive/): everything published.
