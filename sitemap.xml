@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://dailycryptonews.github.io/</loc><lastmod>2026-09-09</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://dailycryptonews.github.io/crypto-tax-lots-enter-broker-reporting-but-defi-stays-manual/</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://dailycryptonews.github.io/universal-bridge-keeps-uasset-minting-behind-merchant-gate/</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://dailycryptonews.github.io/airdrop-eligibility-turns-wallet-history-into-a-score/</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://dailycryptonews.github.io/bitcoin-difficultys-1-31-rise-shows-the-retarget-at-work/</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -19,8 +20,8 @@
 <url><loc>https://dailycryptonews.github.io/topics/market-infrastructure/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
 <url><loc>https://dailycryptonews.github.io/topics/network-performance/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
 <url><loc>https://dailycryptonews.github.io/topics/protocol-upgrades/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://dailycryptonews.github.io/topics/validator-economics/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
 <url><loc>https://dailycryptonews.github.io/topics/crypto-policy/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
+<url><loc>https://dailycryptonews.github.io/topics/validator-economics/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
 <url><loc>https://dailycryptonews.github.io/archive/</loc><priority>0.3</priority></url>
 <url><loc>https://dailycryptonews.github.io/about/</loc><priority>0.3</priority></url>
 <url><loc>https://dailycryptonews.github.io/privacy/</loc><priority>0.3</priority></url>
