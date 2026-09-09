@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://dailycryptonews.github.io/</loc><lastmod>2026-09-09</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://dailycryptonews.github.io/lse-payward-plan-100-uk-stock-tokens-and-native-shares/</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://dailycryptonews.github.io/meta-earth-vote-clears-v2-0-17-for-block-14-920-300/</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://dailycryptonews.github.io/velora-brings-cross-chain-orders-to-robinhood-chain/</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://dailycryptonews.github.io/core-lightning-26-06-7-check-the-artifact-before-restart/</loc><lastmod>2026-09-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://dailycryptonews.github.io/canonical-means-who-controls-the-claim/</loc><lastmod>2026-09-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -8,6 +10,7 @@
 <url><loc>https://dailycryptonews.github.io/topics/network-performance/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
 <url><loc>https://dailycryptonews.github.io/topics/market-infrastructure/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
 <url><loc>https://dailycryptonews.github.io/topics/protocol-upgrades/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
+<url><loc>https://dailycryptonews.github.io/topics/crypto-policy/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
 <url><loc>https://dailycryptonews.github.io/topics/validator-economics/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
 <url><loc>https://dailycryptonews.github.io/archive/</loc><priority>0.3</priority></url>
 <url><loc>https://dailycryptonews.github.io/about/</loc><priority>0.3</priority></url>
