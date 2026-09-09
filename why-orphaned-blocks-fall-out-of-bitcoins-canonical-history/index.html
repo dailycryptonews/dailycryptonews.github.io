@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en-US" data-mode="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why Orphaned Blocks Leave Bitcoin&#39;s Canonical History</title>
+<meta name="description" content="Bitcoin drops valid competing blocks when another branch gains more work, costing miners rewards while preserving one canonical transaction history for nodes.">
+<link rel="canonical" href="https://dailycryptonews.github.io/why-orphaned-blocks-fall-out-of-bitcoins-canonical-history/">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="theme-color" content="#000000">
+<meta name="author" content="Crypto Node Dispatch Editorial"><meta property="og:type" content="article">
+<meta property="og:site_name" content="Crypto Node Dispatch">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Why Orphaned Blocks Fall Out of Bitcoin&#39;s Canonical History">
+<meta property="og:description" content="Bitcoin drops valid competing blocks when another branch gains more work, costing miners rewards while preserving one canonical transaction history for nodes.">
+<meta property="og:url" content="https://dailycryptonews.github.io/why-orphaned-blocks-fall-out-of-bitcoins-canonical-history/">
+<meta property="og:image" content="https://dailycryptonews.github.io/assets/covers/why-orphaned-blocks-fall-out-of-bitcoins-canonical-history-og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Why Orphaned Blocks Fall Out of Bitcoin&#39;s Canonical History"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Why Orphaned Blocks Fall Out of Bitcoin&#39;s Canonical History">
+<meta name="twitter:description" content="Bitcoin drops valid competing blocks when another branch gains more work, costing miners rewards while preserving one canonical transaction history for nodes.">
+<meta property="article:published_time" content="2026-09-09T15:02:57+00:00">
+<meta property="article:section" content="Network Performance"><meta property="article:tag" content="Network Performance">
+<meta property="article:tag" content="Validator Economics">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@700&amp;family=IBM+Plex+Sans:wght@400;500;600;700&amp;display=swap">
+<link rel="stylesheet" href="/assets/sa179620dec.css">
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Crypto Node Dispatch" href="/feed.xml"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://dailycryptonews.github.io/why-orphaned-blocks-fall-out-of-bitcoins-canonical-history/#webpage",
+      "url": "https://dailycryptonews.github.io/why-orphaned-blocks-fall-out-of-bitcoins-canonical-history/",
+      "name": "Why Orphaned Blocks Leave Bitcoin's Canonical History",
+      "isPartOf": {
+        "@id": "https://dailycryptonews.github.io/#website"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dailycryptonews.github.io/why-orphaned-blocks-fall-out-of-bitcoins-canonical-history/#article",
+      "headline": "Why Orphaned Blocks Fall Out of Bitcoin's Canonical History",
+      "isAccessibleForFree": true,
+      "description": "Bitcoin drops valid competing blocks when another branch gains more work, costing miners rewards while preserving one canonical transaction history for nodes.",
+      "datePublished": "2026-09-09T15:02:57+00:00",
+      "dateModified": "2026-09-09T15:02:57+00:00",
+      "url": "https://dailycryptonews.github.io/why-orphaned-blocks-fall-out-of-bitcoins-canonical-history/",
+      "mainEntityOfPage": {
+        "@id": "https://dailycryptonews.github.io/why-orphaned-blocks-fall-out-of-bitcoins-canonical-history/#webpage"
+      },
+      "inLanguage": "en-US",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dailycryptonews.github.io/#org",
+        "name": "Crypto Node Dispatch Editorial"
+      },
+      "publisher": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "keywords": "Network Performance, Validator Economics",
+      "articleSection": "Network Performance",
+      "wordCount": 496,
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/covers/why-orphaned-blocks-fall-out-of-bitcoins-canonical-history.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dailycryptonews.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Why Orphaned Blocks Fall Out of Bitcoin's Canonical History",
+          "item": "https://dailycryptonews.github.io/why-orphaned-blocks-fall-out-of-bitcoins-canonical-history/"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dailycryptonews.github.io/#org",
+      "name": "Crypto Node Dispatch",
+      "url": "https://dailycryptonews.github.io/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/apple-touch-icon.png"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/og.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dailycryptonews.github.io/#website",
+      "name": "Crypto Node Dispatch",
+      "url": "https://dailycryptonews.github.io/",
+      "publisher": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "inLanguage": "en-US",
+      "description": "Daily crypto reporting on network performance, validator economics, protocol changes and market structure, grounded in on-chain data and primary sources."
+    }
+  ]
+}
+</script>
+</head>
+<body data-page="post">
+<a class="sf8e7af1" href="#main">Skip to the article</a>
+<header class="sf6e6b6c">
+  <div class="sc14e0d7">
+    <div class="s6d9b471">
+      <a class="sb018c94" href="/" aria-label="Crypto Node Dispatch home">
+        <span class="s2261ed5" aria-hidden="true">CN</span>
+        <span class="sb003033">Crypto Node Dispatch</span>
+      </a>
+      <p class="s5fda7e8">Crypto infrastructure, measured daily</p>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<article class="sc14e0d7 s8cd37f3">
+  <header class="s0a8dc36">
+    <div class="sf60ecd5">
+      <span class="s2261ed5 s0cdfadf" aria-hidden="true">CN</span>
+      <p class="sf3a7414">Network Performance</p>
+    </div>
+    <h1 class="s95b00b0">Why Orphaned Blocks Fall Out of Bitcoin&#39;s Canonical History</h1>
+    <p class="sadc10a8">Bitcoin drops valid competing blocks when another branch gains more work, costing miners rewards while preserving one canonical transaction history for nodes.</p>
+    <div class="sc4fedc7">
+      <span>By Crypto Node Dispatch Editorial</span>
+      <time datetime="2026-09-09T15:02:57+00:00">Sep 9, 2026</time>
+      <span>2 min read</span>
+    </div>
+  </header>
+  <figure class="sd50e576">
+    <img src="/assets/covers/why-orphaned-blocks-fall-out-of-bitcoins-canonical-history.jpg" alt="Why Orphaned Blocks Fall Out of Bitcoin&#39;s Canonical History" width="1200" height="630" decoding="async" fetchpriority="high">
+  </figure>
+  <div class="sb870b8b">
+    <div class="s21e4523"><p>On July 2, 2026, the Merge Mining Monitor showed why orphaned blocks leave Bitcoin’s canonical history: nodes follow the valid branch with the most accumulated proof of work, not every valid block they receive. The monitor recovered 20 full-difficulty blocks attributed to Foundry across Bitcoin heights 914,261 to 914,373, a roughly 20-hour window from September 11 to 12, 2025. All 20 lost the fork race. At the 3.125 BTC subsidy then in force, that represents 62.5 BTC in block subsidies outside the winning chain, before transaction fees.</p>
+
+<h2>Why does a valid Bitcoin block become orphaned?</h2>
+<p>A valid block becomes stale when another valid branch accumulates more work. Two miners can find blocks referencing the same parent before either block has propagated across the network. Different nodes may temporarily accept different tips; the next block usually makes one branch heavier, and nodes reorganize to it without a coordinator.</p>
+<p>“Orphaned” is common shorthand here, but Bitcoin operators increasingly reserve <strong>orphan</strong> for a block whose parent is unknown and call a valid losing block <strong>stale</strong>. The distinction matters: stale blocks passed consensus checks. They lost fork choice. The same broad problem appears in a <a href="https://assorted-frown-13b.notion.site/Frax-Swap-Choose-Proof-of-Stake-or-Proof-of-Work-3d6981e2762380cc8c88ff4646dff04c" rel="noopener">proof-of-work and proof-of-stake comparison</a>, although proof-of-stake chains weigh validator votes and finality rather than accumulated mining work.</p>
+
+<h2>What happens to transactions in an orphaned block?</h2>
+<p>Transactions do not automatically vanish when their block goes stale. A node disconnects the losing block, reverses its state changes and returns still-valid transactions to its mempool; miners can include them again. Transactions that conflict with the winning branch are rejected, while the stale block’s coinbase output never becomes spendable.</p>
+<p>That makes confirmations a measure of settlement depth, not a binary guarantee. Wallets, exchanges and indexers must key records by block hash as well as height, handle removed-block events and delay irreversible actions according to their risk.</p>
+
+<h2>What do stale blocks cost miners and nodes?</h2>
+<p>Stale blocks turn real hashing, bandwidth and block-building work into no protocol revenue. The September cluster is far above the informal baseline discussed by Bitcoin Optech in November 2025—about one stale block every two weeks—but that baseline was explicitly an estimate. Bitcoin has no complete canonical ledger of losing blocks because those headers may never propagate widely. The 20-block cluster was reconstructed from merge-mined chain commitments, so it is observed evidence of one event, not a network-wide stale-rate series.</p>
+<ul>
+<li>Miners pay for low-latency relay, compact-block support and redundant peering to reduce losing races.</li>
+<li>Pools absorb the loss under some payout models; under others, variance reaches participating hashers.</li>
+<li>Node and market-data operators pay for reorg-aware storage, confirmation policies and replayable indexing.</li>
+</ul>
+
+<h2>What should Bitcoin operators watch next?</h2>
+<p>Operators should treat short forks as routine consensus behavior but clusters as infrastructure alarms. Faster propagation improves revenue fairness and chain convergence, yet extra relay paths and monitoring add bandwidth and operational cost. The next measurable event is another multi-block stale cluster: compare its pool concentration, header timestamps and first-seen propagation gaps against the September 2025 window.</p></div>
+    <section class="s1d89fb3" aria-label="Article topics">
+      <h2 class="s362f2d4">Filed under</h2>
+      <ul class="se898b56">
+        <li>Network Performance</li>
+        <li>Validator Economics</li>
+      </ul>
+    </section>
+    <section class="s137e9a4">
+      
+      <ul class="sad4f4aa">
+        <li><a href="/lock-and-mint-tokens-are-claims-not-new-value/">Lock-and-Mint Tokens Are Claims, Not New Value</a></li>
+        <li><a href="/meta-earth-vote-clears-v2-0-17-for-block-14-920-300/">Meta Earth Vote Clears V2.0.17 for Block 14,920,300</a></li>
+        <li><a href="/core-lightning-26-06-7-check-the-artifact-before-restart/">Core Lightning 26.06.7: Check the Artifact Before Restart</a></li>
+        <li><a href="/canonical-means-who-controls-the-claim/">Canonical Means Who Controls the Claim</a></li>
+      </ul>
+    </section>
+  </div>
+</article>
+</main>
+
+<footer class="s581eb69">
+  <div class="sc14e0d7">
+    <div class="s536e3d5">
+      <div class="sb8294dc">
+        <a class="sa9673f2" href="/">
+          <span class="s2261ed5 s0cdfadf" aria-hidden="true">CN</span>
+          <span>Crypto Node Dispatch</span>
+        </a>
+        <p class="s1ed0b6a">Independent reporting on crypto infrastructure.</p>
+      </div>
+      <nav class="s8b88471" aria-label="Publication">
+        <h2 class="s362f2d4">Publication</h2>
+        <ul class="s4b8f0f2">
+          <li><a href="/">Start</a></li>
+          <li><a href="/about/">Masthead</a></li>
+          <li><a href="/privacy/">Privacy &amp; terms</a></li>
+          <li><a href="/archive/">All posts</a></li>
+        </ul>
+      </nav>
+      <nav class="s8b88471" aria-label="Topic hubs">
+        <h2 class="s362f2d4">Topics</h2>
+        <ul class="s4b8f0f2">
+          <li><a href="/topics/network-performance/">Network Performance</a></li>
+          <li><a href="/topics/market-infrastructure/">Market Infrastructure</a></li>
+          <li><a href="/topics/protocol-upgrades/">Protocol Upgrades</a></li>
+          <li><a href="/topics/validator-economics/">Validator Economics</a></li>
+          <li><a href="/topics/crypto-policy/">Crypto Policy</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="s0218ecd">
+      <p class="s4316f82">An independent outlet. Nothing here is financial advice.</p>
+      <p class="s3c716eb">© 2026 Crypto Node Dispatch</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
