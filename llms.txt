@@ -1,8 +1,8 @@
-# Daily Paraswap News
+# Crypto Node Dispatch
 
-> Daily reporting on decentralized exchange flows, ParaSwap routing, liquidity shifts and trading costs, with on-chain evidence for active crypto traders.
+> Daily crypto reporting on network performance, validator economics, protocol changes and market structure, grounded in on-chain data and primary sources.
 
-Coverage: Swap Routing, DEX Liquidity, Trading Costs, Protocol Governance, Onchain Flows.
+Coverage: Network Performance, Validator Economics, Protocol Upgrades, Market Infrastructure, Crypto Policy.
 
 ## Key pages
 - [Homepage](https://dailycryptonews.github.io/): latest reporting and analysis.
