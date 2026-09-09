@@ -1,9 +1,9 @@
-# Crypto Operations Times
-
-> Independent crypto infrastructure news and analysis for builders and developers.
-
-Coverage follows production systems, operating costs, failures and recovery.
+# Paraswap Dispatch
+> Independent reporting on Paraswap execution, routing and developer integrations.
+We cover routing mechanics, execution costs, liquidity sources and contract changes.
+Our reporting prioritizes on-chain evidence, reproducible comparisons and practical implications for developers.
+We distinguish measured results from estimates and correct material errors visibly.
 
 ## Key pages
-- [Homepage](https://dailycryptonews.github.io/): Latest reporting and analysis.
-- [About](https://dailycryptonews.github.io/about/): Editorial scope, independence, sourcing and corrections.
+- [Homepage](https://dailycryptonews.github.io/)
+- [About](https://dailycryptonews.github.io/about/)
