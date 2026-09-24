@@ -1,8 +1,6 @@
-# Crypto Node Dispatch
+# Token Hub
 
-> Daily crypto reporting on network performance, validator economics, protocol changes and market structure, grounded in on-chain data and primary sources.
-
-Coverage: Network Performance, Validator Economics, Protocol Upgrades, Market Infrastructure, Crypto Policy.
+> Token Hub reports crypto news as it breaks: markets, exchanges, protocols, regulation and security incidents, in brisk, sourced wire-style copy.
 
 ## Key pages
 - [Homepage](https://dailycryptonews.github.io/): latest reporting and analysis.
