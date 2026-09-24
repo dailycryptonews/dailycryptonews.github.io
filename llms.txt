@@ -1,6 +1,6 @@
-# Hashmark
+# Blockheight
 
-> Hashmark reports crypto news: Bitcoin and Ethereum, exchanges, DeFi protocols, stablecoins, regulation, security incidents and market-moving deals.
+> Blockheight reports crypto news: Bitcoin and Ethereum, DeFi protocols, exchanges, stablecoins, regulation, security incidents and market structure.
 
 ## Key pages
 - [Homepage](https://dailycryptonews.github.io/): latest reporting and analysis.
