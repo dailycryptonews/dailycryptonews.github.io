@@ -1,6 +1,6 @@
-# Token Hub
+# Hashmark
 
-> Token Hub reports crypto news as it breaks: markets, exchanges, protocols, regulation and security incidents, in brisk, sourced wire-style copy.
+> Hashmark reports crypto news: Bitcoin and Ethereum, exchanges, DeFi protocols, stablecoins, regulation, security incidents and market-moving deals.
 
 ## Key pages
 - [Homepage](https://dailycryptonews.github.io/): latest reporting and analysis.
