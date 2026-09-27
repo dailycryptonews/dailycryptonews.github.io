@@ -1,7 +1,7 @@
 :root{
   --bg:#ffffff; --surface:#ffffff; --elevated:#f4f4f4;
   --text:#000000; --muted:#555555; --border:#d6d6d6;
-  --accent:#000000; --accent-ink:#ffffff;
+  --accent:#000000; --accent-ink:#ffffff; --accent-text:#000000;
   --font-display:"Space Grotesk", system-ui, sans-serif;
   --font-body:"Inter", system-ui, sans-serif;
   --font-mono:"Space Mono", ui-monospace, Menlo, monospace;
@@ -35,7 +35,7 @@ p{margin:0 0 1.1em}
 .s4eabe60 > *{max-width:68ch}
 .s4eabe60 h2{font-size:1.55rem; margin-top:1.9em}
 .s4eabe60 h3{font-size:1.22rem; margin-top:1.5em}
-.s4eabe60 a{color:var(--accent); text-decoration:underline; text-underline-offset:2.5px; text-decoration-thickness:1px}
+.s4eabe60 a{color:var(--accent-text, var(--accent)); text-decoration:underline; text-underline-offset:2.5px; text-decoration-thickness:1px}
 .s4eabe60 a:hover{text-decoration-thickness:2px}
 .s4eabe60 ul,.s4eabe60 ol{padding-left:1.3em; margin:0 0 1.2em}
 .s4eabe60 li{margin:.35em 0}
