@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en-US" data-mode="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>XMR deposit verification before payout | Blockheight</title>
+<meta name="description" content="An XMR deposit should trigger payout only after the receiving wallet verifies its subaddress, amount and on-chain status; confirmation and spendability are separate gates.">
+<link rel="canonical" href="https://dailycryptonews.github.io/gate-xmr-deposits-before-releasing-payout/">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="theme-color" content="#ffffff">
+<meta name="author" content="The Blockheight Editors"><meta property="og:type" content="article">
+<meta property="og:site_name" content="Blockheight">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Gate XMR deposits before releasing payout">
+<meta property="og:description" content="An XMR deposit should trigger payout only after the receiving wallet verifies its subaddress, amount and on-chain status; confirmation and spendability are separate gates.">
+<meta property="og:url" content="https://dailycryptonews.github.io/gate-xmr-deposits-before-releasing-payout/">
+<meta property="og:image" content="https://dailycryptonews.github.io/assets/covers/gate-xmr-deposits-before-releasing-payout-og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Gate XMR deposits before releasing payout"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gate XMR deposits before releasing payout">
+<meta name="twitter:description" content="An XMR deposit should trigger payout only after the receiving wallet verifies its subaddress, amount and on-chain status; confirmation and spendability are separate gates.">
+<meta property="article:published_time" content="2026-09-29T13:42:44+00:00">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&amp;family=Inter:wght@400;500;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap">
+<link rel="stylesheet" href="/assets/s5a00806c43.css">
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Blockheight" href="/feed.xml"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://dailycryptonews.github.io/gate-xmr-deposits-before-releasing-payout/#webpage",
+      "url": "https://dailycryptonews.github.io/gate-xmr-deposits-before-releasing-payout/",
+      "name": "XMR deposit verification before payout | Blockheight",
+      "isPartOf": {
+        "@id": "https://dailycryptonews.github.io/#website"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dailycryptonews.github.io/gate-xmr-deposits-before-releasing-payout/#article",
+      "headline": "Gate XMR deposits before releasing payout",
+      "isAccessibleForFree": true,
+      "description": "An XMR deposit should trigger payout only after the receiving wallet verifies its subaddress, amount and on-chain status; confirmation and spendability are separate gates.",
+      "datePublished": "2026-09-29T13:42:44+00:00",
+      "dateModified": "2026-09-29T13:42:44+00:00",
+      "url": "https://dailycryptonews.github.io/gate-xmr-deposits-before-releasing-payout/",
+      "mainEntityOfPage": {
+        "@id": "https://dailycryptonews.github.io/gate-xmr-deposits-before-releasing-payout/#webpage"
+      },
+      "inLanguage": "en-US",
+      "author": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "publisher": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "wordCount": 603,
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/covers/gate-xmr-deposits-before-releasing-payout.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dailycryptonews.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Gate XMR deposits before releasing payout",
+          "item": "https://dailycryptonews.github.io/gate-xmr-deposits-before-releasing-payout/"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dailycryptonews.github.io/#org",
+      "name": "Blockheight",
+      "url": "https://dailycryptonews.github.io/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/apple-touch-icon.png"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/og.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dailycryptonews.github.io/#website",
+      "name": "Blockheight",
+      "url": "https://dailycryptonews.github.io/",
+      "publisher": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "inLanguage": "en-US",
+      "description": "Blockheight reports crypto news: Bitcoin and Ethereum, DeFi protocols, exchanges, stablecoins, regulation, security incidents and market structure."
+    }
+  ]
+}
+</script>
+</head>
+<body data-page="post">
+<a class="s61e7d91" href="#main">Skip to the article</a>
+<header class="s4667490">
+  <div class="s7825b27 s085acb6">
+    <a class="s901b840" href="/">Blockheight</a>
+    <p class="s7d91c17">Crypto markets, protocols, policy</p>
+  </div>
+</header>
+
+<main id="main">
+<article class="s7825b27 sa8bd275">
+  <header class="s769f2c7">
+    <h1 class="s886ff09 sab937f5">Gate XMR deposits before releasing payout</h1>
+<p class="sc8b1df6">An XMR deposit should trigger payout only after the receiving wallet verifies its subaddress, amount and on-chain status; confirmation and spendability are separate gates.</p>    <p class="s5b3ce67 s484af67"><span>The Blockheight Editors</span><span class="s2fb39ad">·</span><time datetime="2026-09-29T13:42:44+00:00">Sep 29, 2026</time><span class="s2fb39ad">·</span><span>3 min read</span></p>
+  </header>
+<img fetchpriority="high" class="s05e8fe3 s98e12d5" src="/assets/covers/gate-xmr-deposits-before-releasing-payout.jpg" alt="Gate XMR deposits before releasing payout">  <div class="s4eabe60">
+    <p>Operators should release a payout only after their Monero wallet has matched an incoming XMR transfer to the order and met the service’s confirmation policy. A transaction shown as pending is not the same as one recorded in a block, and a confirmed transfer may still be locked from spending.</p>
+
+<p>That distinction matters in an XMR bridge: the route and trust model affect who detects the deposit and when the other asset is released. For a fuller comparison of those choices, see this guide to <a href="https://ethereumnews.github.io/xmr-bridge-routes-depend-on-the-destination-asset-and-trust-model/" rel="noopener">XMR bridge routes and their trust models</a>.</p>
+
+<h2>How can a service match an XMR deposit to an order?</h2>
+
+<p>Give each order a distinct Monero subaddress and record the address against that order in the service’s internal ledger. When the wallet scans an incoming transfer, its reported subaddress index can identify the order without relying on a public transaction explorer to reveal the recipient.</p>
+
+<p>Monero conceals transaction amounts and recipient details from public observers. The receiving wallet can still detect and decode transfers addressed to it, so an operator should verify deposits through a synchronized wallet it controls or a properly secured wallet service. A transaction hash from a customer can help support a review, but it does not replace the wallet’s own record.</p>
+
+<h2>What should the payout gate check?</h2>
+
+<p>Before releasing value, the service should match the wallet’s incoming record to the order and check that the transfer is included in a block. Wallet RPC exposes fields such as transfer type, amount, address, subaddress index, confirmations, locked status and unlock time; the operator can use these to enforce a consistent gate.</p>
+
+<ul>
+<li><strong>Order match:</strong> Confirm the receiving subaddress belongs to the order being paid.</li>
+<li><strong>Amount:</strong> Compare the wallet-reported amount with the order’s required deposit, including any stated tolerance.</li>
+<li><strong>Block status:</strong> Require a confirmed incoming transfer rather than one still in the transaction pool.</li>
+<li><strong>Availability:</strong> Check whether the output is locked and whether its unlock time is acceptable under the service’s policy.</li>
+</ul>
+
+<p>Keep the payout decision tied to wallet state, not a customer screenshot or a message that says “sent.” If the wallet is behind the network, pause automated release: an incomplete scan can make a valid payment appear absent or leave the service acting on stale confirmation data.</p>
+
+<h2>How many confirmations should trigger payout?</h2>
+
+<p>Set the threshold according to the value at risk and the cost of waiting; there is no single service policy that fits every deposit. A transfer appearing in a block has been included, while later blocks add confirmations, and Monero’s wallet also tracks whether received funds are spendable.</p>
+
+<p>Do not confuse the network’s spendability lock with a business’s payout rule. A service sending a separate asset may choose to wait for more confirmations or for the XMR output to become unlocked, but each extra wait trades faster settlement for a larger buffer against chain changes and operational mistakes. State the rule before the customer deposits, and apply it consistently.</p>
+
+<h2>What should happen when a deposit does not match?</h2>
+
+<p>Hold the payout and route the order for review if the amount is short, the address does not match, the wallet is unsynchronized or the transfer remains pending. Record the order identifier, wallet result and decision so support staff can explain the hold without exposing wallet credentials or internal keys.</p>
+
+<p>The practical gate is simple: identify the order by subaddress, verify the amount in the receiving wallet, then apply a published confirmation and unlock policy before releasing the other asset. The next step is monitoring the wallet until the transfer qualifies; whether a particular route or provider follows that process must be confirmed with its operator.</p>
+  </div>
+  <section class="s7f17d39">
+    <h2 class="s5ba591d sab937f5">Related stories</h2>
+    <ul class="s02fc2ee">
+      <li><a href="/how-to-diagnose-a-pending-xmr-bridge-swap/">How to diagnose a pending XMR bridge swap</a></li>
+      <li><a href="/xmr-bridge-routes-choosing-a-path-from-your-own-wallet/">xmr bridge routes: choosing a path from your own wallet</a></li>
+      <li><a href="/why-deeper-cross-chain-liquidity-cuts-swap-slippage/">Why deeper cross-chain liquidity cuts swap slippage</a></li>
+      <li><a href="/bungee-bridge-routes-compare-fees-slippage-and-output/">Bungee Bridge routes: compare fees, slippage and output</a></li>
+    </ul>
+  </section>
+</article>
+</main>
+
+<footer class="sb3ab2f7">
+  <div class="s7825b27 s2fa37d7">
+    <p class="s58367aa">Blockheight</p>
+    <nav class="sc3e5219" aria-label="Site">
+      <ul>
+<li><a href="/">Front page</a></li><li><a href="/about/">Masthead</a></li><li><a href="/privacy/">Privacy &amp; terms</a></li><li><a href="/archive/">All articles</a></li>      </ul>
+    </nav>
+    <p class="sa2e7243">An independent outlet. Nothing here is financial advice.</p>
+    <p class="s7ab9fac">© 2026 Blockheight</p>
+  </div>
+</footer>
+</body>
+</html>
