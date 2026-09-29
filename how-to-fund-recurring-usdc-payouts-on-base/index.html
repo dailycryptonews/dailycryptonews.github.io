@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en-US" data-mode="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fund recurring USDC payouts on Base | Blockheight</title>
+<meta name="description" content="Recurring USDC payouts on Base need a prefunded wallet, a scheduler that submits each transfer, and ETH for network fees; native USDC avoids token confusion.">
+<link rel="canonical" href="https://dailycryptonews.github.io/how-to-fund-recurring-usdc-payouts-on-base/">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="theme-color" content="#ffffff">
+<meta name="author" content="The Blockheight Editors"><meta property="og:type" content="article">
+<meta property="og:site_name" content="Blockheight">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="How to fund recurring USDC payouts on Base">
+<meta property="og:description" content="Recurring USDC payouts on Base need a prefunded wallet, a scheduler that submits each transfer, and ETH for network fees; native USDC avoids token confusion.">
+<meta property="og:url" content="https://dailycryptonews.github.io/how-to-fund-recurring-usdc-payouts-on-base/">
+<meta property="og:image" content="https://dailycryptonews.github.io/assets/covers/how-to-fund-recurring-usdc-payouts-on-base-og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="How to fund recurring USDC payouts on Base"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to fund recurring USDC payouts on Base">
+<meta name="twitter:description" content="Recurring USDC payouts on Base need a prefunded wallet, a scheduler that submits each transfer, and ETH for network fees; native USDC avoids token confusion.">
+<meta property="article:published_time" content="2026-09-29T15:06:41+00:00">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&amp;family=Inter:wght@400;500;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap">
+<link rel="stylesheet" href="/assets/s5a00806c43.css">
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Blockheight" href="/feed.xml"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://dailycryptonews.github.io/how-to-fund-recurring-usdc-payouts-on-base/#webpage",
+      "url": "https://dailycryptonews.github.io/how-to-fund-recurring-usdc-payouts-on-base/",
+      "name": "Fund recurring USDC payouts on Base | Blockheight",
+      "isPartOf": {
+        "@id": "https://dailycryptonews.github.io/#website"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dailycryptonews.github.io/how-to-fund-recurring-usdc-payouts-on-base/#article",
+      "headline": "How to fund recurring USDC payouts on Base",
+      "isAccessibleForFree": true,
+      "description": "Recurring USDC payouts on Base need a prefunded wallet, a scheduler that submits each transfer, and ETH for network fees; native USDC avoids token confusion.",
+      "datePublished": "2026-09-29T15:06:41+00:00",
+      "dateModified": "2026-09-29T15:06:41+00:00",
+      "url": "https://dailycryptonews.github.io/how-to-fund-recurring-usdc-payouts-on-base/",
+      "mainEntityOfPage": {
+        "@id": "https://dailycryptonews.github.io/how-to-fund-recurring-usdc-payouts-on-base/#webpage"
+      },
+      "inLanguage": "en-US",
+      "author": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "publisher": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "wordCount": 538,
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/covers/how-to-fund-recurring-usdc-payouts-on-base.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dailycryptonews.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "How to fund recurring USDC payouts on Base",
+          "item": "https://dailycryptonews.github.io/how-to-fund-recurring-usdc-payouts-on-base/"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dailycryptonews.github.io/#org",
+      "name": "Blockheight",
+      "url": "https://dailycryptonews.github.io/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/apple-touch-icon.png"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/og.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dailycryptonews.github.io/#website",
+      "name": "Blockheight",
+      "url": "https://dailycryptonews.github.io/",
+      "publisher": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "inLanguage": "en-US",
+      "description": "Blockheight reports crypto news: Bitcoin and Ethereum, DeFi protocols, exchanges, stablecoins, regulation, security incidents and market structure."
+    }
+  ]
+}
+</script>
+</head>
+<body data-page="post">
+<a class="s61e7d91" href="#main">Skip to the article</a>
+<header class="s4667490">
+  <div class="s7825b27 s085acb6">
+    <a class="s901b840" href="/">Blockheight</a>
+    <p class="s7d91c17">Crypto markets, protocols, policy</p>
+  </div>
+</header>
+
+<main id="main">
+<article class="s7825b27 sa8bd275">
+  <header class="s769f2c7">
+    <h1 class="s886ff09 sab937f5">How to fund recurring USDC payouts on Base</h1>
+<p class="sc8b1df6">Recurring USDC payouts on Base need a prefunded wallet, a scheduler that submits each transfer, and ETH for network fees; native USDC avoids token confusion.</p>    <p class="s5b3ce67 s484af67"><span>The Blockheight Editors</span><span class="s2fb39ad">·</span><time datetime="2026-09-29T15:06:41+00:00">Sep 29, 2026</time><span class="s2fb39ad">·</span><span>2 min read</span></p>
+  </header>
+<img fetchpriority="high" class="s05e8fe3 s98e12d5" src="/assets/covers/how-to-fund-recurring-usdc-payouts-on-base.jpg" alt="How to fund recurring USDC payouts on Base">  <div class="s4eabe60">
+    <p>Circle made native USDC available on Base on Sept. 5, 2023; recurring payouts can draw from a prefunded balance, with a scheduled transaction triggering each transfer. Circle identifies native USDC as its issued token and lists Base support in its payout APIs.</p>
+
+<p>For a manual setup, keep enough USDC in a wallet or contract to cover the planned payouts, then submit each transfer when due. If you need to acquire USDC with another token, read <a href="https://newscryptoworld.github.io/base-swap-2026-how-routes-pool-costs-and-failed-trades-work/" rel="noopener">how Base swap routes affect trade costs</a> before choosing a route; the exchange rate and pool liquidity affect how much USDC reaches the payout balance.</p>
+
+<h2>How do recurring USDC payouts work on Base?</h2>
+
+<p>A recurring payout needs a balance, a schedule, and a transaction sender. A blockchain contract cannot wake itself up at a future time, so an external scheduler or operator must submit the transaction; the contract can then check the due date, amount, recipient and available funds before transferring USDC.</p>
+
+<p>This separates the payment rules from the trigger. A contract can enforce a fixed amount and cadence, while a scheduler handles timing and transaction submission. A simpler wallet workflow can work for a small number of recipients, but each payment then depends on the operator sending it correctly and on time.</p>
+
+<h2>What should fund the payout balance?</h2>
+
+<p>Use USDC issued natively on Base for payouts that expect Circle’s token. Circle lists its Base USDC contract as <code>0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913</code> and distinguishes it from bridged USDbC, which Circle says is not compatible with Circle Mint or Circle APIs.</p>
+
+<p>Before funding, check the network and token contract at both ends of the transfer. A matching ticker alone does not prove that two tokens are interchangeable. Circle’s supported-chain list includes Base for USDC payouts, but an app or recipient may still impose its own token requirements.</p>
+
+<ul>
+<li>Estimate the total USDC needed through the next planned refill, including any buffer for missed or delayed funding.</li>
+<li>Keep ETH on Base in the account that submits transactions; Base documentation describes gas prices in ETH-denominated units, and a USDC balance alone does not pay the network fee.</li>
+<li>Send a small test payment and confirm the recipient, token and amount before scheduling a larger batch.</li>
+<li>Track the balance and transaction receipts so a failed or skipped submission does not silently become an unpaid installment.</li>
+</ul>
+
+<h2>How much should the reserve hold?</h2>
+
+<p>Size the reserve around the amount and frequency of payments, then refill before it runs low. For example, a monthly schedule needs enough USDC for the next month’s obligations; a larger reserve reduces refill frequency but leaves more funds exposed in the payout wallet or contract.</p>
+
+<p>Set a low-balance alert and define who can refill funds or change recipients. For contract-based payouts, review the permission controls and test failure handling: an empty balance should stop a transfer clearly, not send a partial amount or repeat a payment after a retry.</p>
+
+<p>The practical choice for most small operators is native USDC held in a dedicated Base wallet, with a modest reserve and a scheduler that records each result. Before launch, confirm the recipient addresses, fee funding and token contract; the exact scheduler, retry policy and Circle API availability for a particular account still need to be verified with the operator or provider.</p>
+  </div>
+  <section class="s7f17d39">
+    <h2 class="s5ba591d sab937f5">Related stories</h2>
+    <ul class="s02fc2ee">
+      <li><a href="/should-you-add-liquidity-or-hold-your-tokens/">Should You Add Liquidity or Hold Your Tokens?</a></li>
+      <li><a href="/how-arbitrage-pools-catch-up-after-a-price-move/">How Arbitrage Pools Catch Up After a Price Move</a></li>
+      <li><a href="/why-a-tron-energy-delegation-stays-pending/">Why a TRON Energy delegation stays pending</a></li>
+      <li><a href="/schedule-tron-wallet-transfers-around-energy-rentals/">Schedule TRON Wallet Transfers Around Energy Rentals</a></li>
+    </ul>
+  </section>
+</article>
+</main>
+
+<footer class="sb3ab2f7">
+  <div class="s7825b27 s2fa37d7">
+    <p class="s58367aa">Blockheight</p>
+    <nav class="sc3e5219" aria-label="Site">
+      <ul>
+<li><a href="/">Front page</a></li><li><a href="/about/">Masthead</a></li><li><a href="/privacy/">Privacy &amp; terms</a></li><li><a href="/archive/">All articles</a></li>      </ul>
+    </nav>
+    <p class="sa2e7243">An independent outlet. Nothing here is financial advice.</p>
+    <p class="s7ab9fac">© 2026 Blockheight</p>
+  </div>
+</footer>
+</body>
+</html>
