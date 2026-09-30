@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://dailycryptonews.github.io/</loc><lastmod>2026-09-30</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://dailycryptonews.github.io/how-to-read-poocoin-token-prices-at-the-right-precision/</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://dailycryptonews.github.io/bsc-swap-costs-how-slippage-fees-and-gas-work/</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://dailycryptonews.github.io/polygon-bridge-timing-depends-on-transfer-direction/</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://dailycryptonews.github.io/verify-a-bridged-erc-20-deposit-on-both-chains/</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -69,5 +70,6 @@
 <url><loc>https://dailycryptonews.github.io/page/4/</loc><changefreq>weekly</changefreq><priority>0.2</priority></url>
 <url><loc>https://dailycryptonews.github.io/page/5/</loc><changefreq>weekly</changefreq><priority>0.2</priority></url>
 <url><loc>https://dailycryptonews.github.io/page/6/</loc><changefreq>weekly</changefreq><priority>0.2</priority></url>
+<url><loc>https://dailycryptonews.github.io/page/7/</loc><changefreq>weekly</changefreq><priority>0.2</priority></url>
 <url><loc>https://dailycryptonews.github.io/archive/page/2/</loc><changefreq>weekly</changefreq><priority>0.2</priority></url>
 </urlset>
