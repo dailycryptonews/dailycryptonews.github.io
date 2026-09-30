@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en-US" data-mode="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estimate Cross-Chain Swap Output and Fees | Blockheight</title>
+<meta name="description" content="A cross-chain swap estimate starts with the route’s market price, then subtracts pool, protocol and transfer costs; compare net output and slippage limits before sending.">
+<link rel="canonical" href="https://dailycryptonews.github.io/how-to-estimate-a-cross-chain-swap-output/">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="theme-color" content="#ffffff">
+<meta name="author" content="The Blockheight Editors"><meta property="og:type" content="article">
+<meta property="og:site_name" content="Blockheight">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="How to Estimate a Cross-Chain Swap Output">
+<meta property="og:description" content="A cross-chain swap estimate starts with the route’s market price, then subtracts pool, protocol and transfer costs; compare net output and slippage limits before sending.">
+<meta property="og:url" content="https://dailycryptonews.github.io/how-to-estimate-a-cross-chain-swap-output/">
+<meta property="og:image" content="https://dailycryptonews.github.io/assets/covers/how-to-estimate-a-cross-chain-swap-output-og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="How to Estimate a Cross-Chain Swap Output"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to Estimate a Cross-Chain Swap Output">
+<meta name="twitter:description" content="A cross-chain swap estimate starts with the route’s market price, then subtracts pool, protocol and transfer costs; compare net output and slippage limits before sending.">
+<meta property="article:published_time" content="2026-09-30T15:13:18+00:00">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&amp;family=Inter:wght@400;500;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap">
+<link rel="stylesheet" href="/assets/s5a00806c43.css">
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Blockheight" href="/feed.xml"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://dailycryptonews.github.io/how-to-estimate-a-cross-chain-swap-output/#webpage",
+      "url": "https://dailycryptonews.github.io/how-to-estimate-a-cross-chain-swap-output/",
+      "name": "Estimate Cross-Chain Swap Output and Fees | Blockheight",
+      "isPartOf": {
+        "@id": "https://dailycryptonews.github.io/#website"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dailycryptonews.github.io/how-to-estimate-a-cross-chain-swap-output/#article",
+      "headline": "How to Estimate a Cross-Chain Swap Output",
+      "isAccessibleForFree": true,
+      "description": "A cross-chain swap estimate starts with the route’s market price, then subtracts pool, protocol and transfer costs; compare net output and slippage limits before sending.",
+      "datePublished": "2026-09-30T15:13:18+00:00",
+      "dateModified": "2026-09-30T15:13:18+00:00",
+      "url": "https://dailycryptonews.github.io/how-to-estimate-a-cross-chain-swap-output/",
+      "mainEntityOfPage": {
+        "@id": "https://dailycryptonews.github.io/how-to-estimate-a-cross-chain-swap-output/#webpage"
+      },
+      "inLanguage": "en-US",
+      "author": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "publisher": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "wordCount": 561,
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/covers/how-to-estimate-a-cross-chain-swap-output.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dailycryptonews.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "How to Estimate a Cross-Chain Swap Output",
+          "item": "https://dailycryptonews.github.io/how-to-estimate-a-cross-chain-swap-output/"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dailycryptonews.github.io/#org",
+      "name": "Blockheight",
+      "url": "https://dailycryptonews.github.io/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/apple-touch-icon.png"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/og.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dailycryptonews.github.io/#website",
+      "name": "Blockheight",
+      "url": "https://dailycryptonews.github.io/",
+      "publisher": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "inLanguage": "en-US",
+      "description": "Blockheight reports crypto news: Bitcoin and Ethereum, DeFi protocols, exchanges, stablecoins, regulation, security incidents and market structure."
+    }
+  ]
+}
+</script>
+</head>
+<body data-page="post">
+<a class="s61e7d91" href="#main">Skip to the article</a>
+<header class="s4667490">
+  <div class="s7825b27 s085acb6">
+    <a class="s901b840" href="/">Blockheight</a>
+    <p class="s7d91c17">Crypto markets, protocols, policy</p>
+  </div>
+</header>
+
+<main id="main">
+<article class="s7825b27 sa8bd275">
+  <header class="s769f2c7">
+    <h1 class="s886ff09 sab937f5">How to Estimate a Cross-Chain Swap Output</h1>
+<p class="sc8b1df6">A cross-chain swap estimate starts with the route’s market price, then subtracts pool, protocol and transfer costs; compare net output and slippage limits before sending.</p>    <p class="s5b3ce67 s484af67"><span>The Blockheight Editors</span><span class="s2fb39ad">·</span><time datetime="2026-09-30T15:13:18+00:00">Sep 30, 2026</time><span class="s2fb39ad">·</span><span>3 min read</span></p>
+  </header>
+<img fetchpriority="high" class="s05e8fe3 s98e12d5" src="/assets/covers/how-to-estimate-a-cross-chain-swap-output.jpg" alt="How to Estimate a Cross-Chain Swap Output">  <div class="s4eabe60">
+    <p>Estimate a cross-chain swap by checking the destination amount for your exact input, then accounting for every route leg, fee and price-protection limit. The amount you receive can differ from a simple market-price conversion because the route trades through liquidity pools and sends a separate transaction on the destination chain.</p>
+
+<h2>What determines a cross-chain swap estimate?</h2>
+
+<p>The route, pool liquidity and fees determine the quoted output. A direct pool swap has one trading leg; a route through an intermediate asset has more than one, and each leg’s price and liquidity affect the final amount. For example, Chainflip’s protocol documentation describes a BTC-to-ETH route through USDC as two sequential pool swaps.</p>
+
+<p>Start with the quote’s estimated destination amount, not just its displayed exchange rate. Check whether the quote includes a broker fee, protocol fee, pool fees and an estimated destination-chain broadcast fee; some costs are deducted from the input, while others reduce the final output. The source-chain transaction fee you pay to send the deposit may be separate.</p>
+
+<p>For the wallet choices behind that service, read about <a href="https://www.tumblr.com/mightilyworthyship/829113542694273024/what-does-this-exchange-do" rel="noopener">Chainflip’s four wallet swap routes</a>. The route helps explain why two quotes for the same asset pair can show different net amounts: they may use different pools, fee settings or intermediaries.</p>
+
+<h2>How do you compare quotes fairly?</h2>
+
+<p>Compare the amount that should arrive, using the same input size, destination asset and recipient chain. A headline rate can omit costs or describe only the pool trade, so use the estimated output after fees when deciding which quote is better.</p>
+
+<ul>
+<li>Confirm the input amount and whether the quote treats it as gross or net of any source-side fee.</li>
+<li>Read the route and count its trading legs; more legs mean more pool pricing and fees to account for.</li>
+<li>Check the fee breakdown, including broker charges and destination-chain transfer costs.</li>
+<li>Compare the quote time and any expiry or execution window, since pool prices can move before the swap executes.</li>
+</ul>
+
+<p>For a rough check, convert the input at the quoted route price, then subtract the listed fees in the assets and stages where they apply. Use the provider’s net output as the practical figure; a hand calculation may miss fee conversions, rounding or transfer costs.</p>
+
+<h2>What can make the final output differ?</h2>
+
+<p>Market movement and available liquidity can change the execution price between the quote and the completed swap. A larger trade can also move the price more within a pool than a smaller one, so a quote for a test amount may not predict the output for a much larger deposit.</p>
+
+<p>Price protection sets conditions for execution rather than guaranteeing the quoted amount. Chainflip’s documentation distinguishes a minimum accepted price, which compares execution with the quote, from live-price protection, which compares it with an oracle price; either can delay or prevent a swap if its limit is not met during the allowed retry period. Check the refund address and retry period before sending if the interface offers these settings.</p>
+
+<h2>Which number should you use?</h2>
+
+<p>Use the net destination amount as your estimate, and compare it only with quotes for the same assets, amount and destination. Treat it as an estimate until the swap executes and the destination-chain transfer completes; the provider’s status updates can show whether the deposit, swap or payout is still pending. The final amount, execution time and any refund remain unconfirmed until those steps finish.</p>
+  </div>
+  <section class="s7f17d39">
+    <h2 class="s5ba591d sab937f5">Related stories</h2>
+    <ul class="s02fc2ee">
+      <li><a href="/what-to-check-before-a-cross-chain-swap/">What to Check Before a Cross-Chain Swap</a></li>
+      <li><a href="/why-cross-chain-token-amounts-change-with-decimals/">Why Cross-Chain Token Amounts Change With Decimals</a></li>
+      <li><a href="/check-whether-a-destination-token-needs-activation/">Check Whether a Destination Token Needs Activation</a></li>
+      <li><a href="/what-treasury-recovery-means-after-a-bridge-route-fails/">What Treasury Recovery Means After a Bridge Route Fails</a></li>
+    </ul>
+  </section>
+</article>
+</main>
+
+<footer class="sb3ab2f7">
+  <div class="s7825b27 s2fa37d7">
+    <p class="s58367aa">Blockheight</p>
+    <nav class="sc3e5219" aria-label="Site">
+      <ul>
+<li><a href="/">Front page</a></li><li><a href="/about/">Masthead</a></li><li><a href="/privacy/">Privacy &amp; terms</a></li><li><a href="/archive/">All articles</a></li>      </ul>
+    </nav>
+    <p class="sa2e7243">An independent outlet. Nothing here is financial advice.</p>
+    <p class="s7ab9fac">© 2026 Blockheight</p>
+  </div>
+</footer>
+</body>
+</html>
