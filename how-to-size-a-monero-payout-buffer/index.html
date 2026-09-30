@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en-US" data-mode="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monero payout buffer: how much XMR to hold | Blockheight</title>
+<meta name="description" content="Size a Monero payout buffer from the XMR owed before the next refill, then add fees and a margin for demand, settlement time and price movement.">
+<link rel="canonical" href="https://dailycryptonews.github.io/how-to-size-a-monero-payout-buffer/">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="theme-color" content="#ffffff">
+<meta name="author" content="The Blockheight Editors"><meta property="og:type" content="article">
+<meta property="og:site_name" content="Blockheight">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="How to size a Monero payout buffer">
+<meta property="og:description" content="Size a Monero payout buffer from the XMR owed before the next refill, then add fees and a margin for demand, settlement time and price movement.">
+<meta property="og:url" content="https://dailycryptonews.github.io/how-to-size-a-monero-payout-buffer/">
+<meta property="og:image" content="https://dailycryptonews.github.io/assets/covers/how-to-size-a-monero-payout-buffer-og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="How to size a Monero payout buffer"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to size a Monero payout buffer">
+<meta name="twitter:description" content="Size a Monero payout buffer from the XMR owed before the next refill, then add fees and a margin for demand, settlement time and price movement.">
+<meta property="article:published_time" content="2026-09-30T16:43:49+00:00">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&amp;family=Inter:wght@400;500;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap">
+<link rel="stylesheet" href="/assets/s5a00806c43.css">
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Blockheight" href="/feed.xml"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://dailycryptonews.github.io/how-to-size-a-monero-payout-buffer/#webpage",
+      "url": "https://dailycryptonews.github.io/how-to-size-a-monero-payout-buffer/",
+      "name": "Monero payout buffer: how much XMR to hold | Blockheight",
+      "isPartOf": {
+        "@id": "https://dailycryptonews.github.io/#website"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dailycryptonews.github.io/how-to-size-a-monero-payout-buffer/#article",
+      "headline": "How to size a Monero payout buffer",
+      "isAccessibleForFree": true,
+      "description": "Size a Monero payout buffer from the XMR owed before the next refill, then add fees and a margin for demand, settlement time and price movement.",
+      "datePublished": "2026-09-30T16:43:49+00:00",
+      "dateModified": "2026-09-30T16:43:49+00:00",
+      "url": "https://dailycryptonews.github.io/how-to-size-a-monero-payout-buffer/",
+      "mainEntityOfPage": {
+        "@id": "https://dailycryptonews.github.io/how-to-size-a-monero-payout-buffer/#webpage"
+      },
+      "inLanguage": "en-US",
+      "author": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "publisher": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "wordCount": 534,
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/covers/how-to-size-a-monero-payout-buffer.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dailycryptonews.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "How to size a Monero payout buffer",
+          "item": "https://dailycryptonews.github.io/how-to-size-a-monero-payout-buffer/"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dailycryptonews.github.io/#org",
+      "name": "Blockheight",
+      "url": "https://dailycryptonews.github.io/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/apple-touch-icon.png"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/og.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dailycryptonews.github.io/#website",
+      "name": "Blockheight",
+      "url": "https://dailycryptonews.github.io/",
+      "publisher": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "inLanguage": "en-US",
+      "description": "Blockheight reports crypto news: Bitcoin and Ethereum, DeFi protocols, exchanges, stablecoins, regulation, security incidents and market structure."
+    }
+  ]
+}
+</script>
+</head>
+<body data-page="post">
+<a class="s61e7d91" href="#main">Skip to the article</a>
+<header class="s4667490">
+  <div class="s7825b27 s085acb6">
+    <a class="s901b840" href="/">Blockheight</a>
+    <p class="s7d91c17">Crypto markets, protocols, policy</p>
+  </div>
+</header>
+
+<main id="main">
+<article class="s7825b27 sa8bd275">
+  <header class="s769f2c7">
+    <h1 class="s886ff09 sab937f5">How to size a Monero payout buffer</h1>
+<p class="sc8b1df6">Size a Monero payout buffer from the XMR owed before the next refill, then add fees and a margin for demand, settlement time and price movement.</p>    <p class="s5b3ce67 s484af67"><span>The Blockheight Editors</span><span class="s2fb39ad">·</span><time datetime="2026-09-30T16:43:49+00:00">Sep 30, 2026</time><span class="s2fb39ad">·</span><span>2 min read</span></p>
+  </header>
+<img fetchpriority="high" class="s05e8fe3 s98e12d5" src="/assets/covers/how-to-size-a-monero-payout-buffer.jpg" alt="How to size a Monero payout buffer">  <div class="s4eabe60">
+    <p>Size a Monero payout buffer to cover everything due before the next reliable refill, plus transaction fees and a reserve for delays or changing demand. The right amount depends on payout size and timing, how quickly funds can be replenished, and whether recipients are owed XMR or a fixed value in another currency.</p>
+
+<p>Start with the payout schedule, not a round-number stash. A service paying XMR should total the expected withdrawals through its replenishment window; a service promising a fiat amount should convert those obligations into XMR using its actual settlement process and a margin for price movement.</p>
+
+<h2>How do you calculate the XMR buffer?</h2>
+
+<p>Use this working formula: <strong>buffer = expected payouts during refill lead time + fee reserve + uncertainty margin.</strong> If a refill takes a day and payouts go out daily, cover that day’s expected withdrawals; if the refill time varies, use a longer window that reflects the delay the operation can absorb.</p>
+
+<p>Estimate expected payouts from recent activity or known obligations, and keep the units clear. A liability fixed at 2 XMR stays 2 XMR even if the market price changes; a liability fixed at, say, a dollar amount does not, so recalculate its XMR equivalent at each funding check.</p>
+
+<p>For more on the conversion leg, this <a href="https://paragraph.com/@robertcryptonews/xmr-bridge-in-2026-move-monero-to-btc-eth-or-usdt" rel="noopener">guide to moving XMR through a bridge into BTC, ETH or USDT</a> covers the broader route choices. The buffer calculation still needs to account for the time and cost of the route actually used.</p>
+
+<h2>How much should you reserve for Monero fees?</h2>
+
+<p>Keep a separate fee reserve instead of treating fees as a percentage of the payout. Monero’s user guide says the sender pays the transaction fee, which depends on network congestion and transaction data size, not the amount sent; more recipients or more coins spent can increase that size.</p>
+
+<p>For a practical estimate, review recent outgoing transactions in the wallet or service and budget around observed fees, then check the wallet’s current fee estimate before sending. The fee total can vary with payout batching: one transaction to several recipients may differ in size from several separate transactions, and the spending inputs also matter.</p>
+
+<ul>
+<li>List each payout due before the next refill.</li>
+<li>Add a fee allowance based on recent transactions and current wallet estimates.</li>
+<li>Add extra XMR for delays, unusually high demand or price movement on value-based payouts.</li>
+</ul>
+
+<h2>When should you increase or reduce the buffer?</h2>
+
+<p>Increase it when payout volume rises, refills take longer, or a fiat-denominated obligation could require more XMR after a price move. Reduce it when records show the buffer consistently exceeds the maximum obligations through the refill window by a wide margin; excess inventory carries market exposure if its value falls.</p>
+
+<p>Set a review trigger, such as a change in payout volume or refill timing, and recalculate when it occurs. Keep a record of obligations, fees, and refill delays so the reserve reflects operating history rather than guesswork.</p>
+
+<p>Before sending, verify the recipient details, available unlocked balance and wallet fee estimate; Monero’s user guide notes that confirmed payments are irreversible. The next step is to measure actual refill times and payout totals, then adjust the reserve; future demand, delays and the required margin remain specific to each operation.</p>
+  </div>
+  <section class="s7f17d39">
+    <h2 class="s5ba591d sab937f5">Related stories</h2>
+    <ul class="s02fc2ee">
+      <li><a href="/selling-tokens-after-genesis-liquidity-opens/">Selling Tokens After Genesis Liquidity Opens</a></li>
+      <li><a href="/check-swap-pool-contracts-before-treasury-trades/">Check Swap Pool Contracts Before Treasury Trades</a></li>
+      <li><a href="/fund-an-avalanche-wallet-before-you-swap/">Fund an Avalanche Wallet Before You Swap</a></li>
+      <li><a href="/how-to-estimate-slippage-before-an-avalanche-token-swap/">How to Estimate Slippage Before an Avalanche Token Swap</a></li>
+    </ul>
+  </section>
+</article>
+</main>
+
+<footer class="sb3ab2f7">
+  <div class="s7825b27 s2fa37d7">
+    <p class="s58367aa">Blockheight</p>
+    <nav class="sc3e5219" aria-label="Site">
+      <ul>
+<li><a href="/">Front page</a></li><li><a href="/about/">Masthead</a></li><li><a href="/privacy/">Privacy &amp; terms</a></li><li><a href="/archive/">All articles</a></li>      </ul>
+    </nav>
+    <p class="sa2e7243">An independent outlet. Nothing here is financial advice.</p>
+    <p class="s7ab9fac">© 2026 Blockheight</p>
+  </div>
+</footer>
+</body>
+</html>
