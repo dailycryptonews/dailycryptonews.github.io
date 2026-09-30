@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://dailycryptonews.github.io/</loc><lastmod>2026-09-30</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://dailycryptonews.github.io/xmr-bridge-key-rotation-limits-reserve-signer-risk/</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://dailycryptonews.github.io/borrowing-stablecoins-against-wrapped-xmr-requires-a-live-market/</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://dailycryptonews.github.io/how-to-consolidate-crypto-across-different-networks/</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://dailycryptonews.github.io/fermi-swap-three-routes-for-treasury-transfers/</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -47,4 +48,5 @@
 <url><loc>https://dailycryptonews.github.io/page/2/</loc><changefreq>weekly</changefreq><priority>0.2</priority></url>
 <url><loc>https://dailycryptonews.github.io/page/3/</loc><changefreq>weekly</changefreq><priority>0.2</priority></url>
 <url><loc>https://dailycryptonews.github.io/page/4/</loc><changefreq>weekly</changefreq><priority>0.2</priority></url>
+<url><loc>https://dailycryptonews.github.io/page/5/</loc><changefreq>weekly</changefreq><priority>0.2</priority></url>
 </urlset>
