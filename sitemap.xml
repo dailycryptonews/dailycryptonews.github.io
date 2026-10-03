@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://dailycryptonews.github.io/</loc><lastmod>2026-10-03</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://dailycryptonews.github.io/how-to-use-xmr-as-loan-collateral/</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://dailycryptonews.github.io/estimate-impermanent-loss-before-adding-liquidity/</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://dailycryptonews.github.io/xmr-bridge-deposit-confirmations-how-the-wait-works/</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://dailycryptonews.github.io/paying-an-onchain-freelancer-from-monero/</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -102,5 +103,6 @@
 <url><loc>https://dailycryptonews.github.io/page/7/</loc><changefreq>weekly</changefreq><priority>0.2</priority></url>
 <url><loc>https://dailycryptonews.github.io/page/8/</loc><changefreq>weekly</changefreq><priority>0.2</priority></url>
 <url><loc>https://dailycryptonews.github.io/page/9/</loc><changefreq>weekly</changefreq><priority>0.2</priority></url>
+<url><loc>https://dailycryptonews.github.io/page/10/</loc><changefreq>weekly</changefreq><priority>0.2</priority></url>
 <url><loc>https://dailycryptonews.github.io/archive/page/2/</loc><changefreq>weekly</changefreq><priority>0.2</priority></url>
 </urlset>
