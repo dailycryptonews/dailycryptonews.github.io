@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en-US" data-mode="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>XMR Bridge Deposit Confirmations Explained | Blockheight</title>
+<meta name="description" content="XMR deposits pass from wallet broadcast to Monero confirmation, then wait for the bridge’s own threshold before the destination asset is released.">
+<link rel="canonical" href="https://dailycryptonews.github.io/xmr-bridge-deposit-confirmations-how-the-wait-works/">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="theme-color" content="#ffffff">
+<meta name="author" content="The Blockheight Editors"><meta property="og:type" content="article">
+<meta property="og:site_name" content="Blockheight">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="XMR Bridge Deposit Confirmations: How the Wait Works">
+<meta property="og:description" content="XMR deposits pass from wallet broadcast to Monero confirmation, then wait for the bridge’s own threshold before the destination asset is released.">
+<meta property="og:url" content="https://dailycryptonews.github.io/xmr-bridge-deposit-confirmations-how-the-wait-works/">
+<meta property="og:image" content="https://dailycryptonews.github.io/assets/covers/xmr-bridge-deposit-confirmations-how-the-wait-works-og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="XMR Bridge Deposit Confirmations: How the Wait Works"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="XMR Bridge Deposit Confirmations: How the Wait Works">
+<meta name="twitter:description" content="XMR deposits pass from wallet broadcast to Monero confirmation, then wait for the bridge’s own threshold before the destination asset is released.">
+<meta property="article:published_time" content="2026-10-03T18:45:39+00:00">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&amp;family=Inter:wght@400;500;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap">
+<link rel="stylesheet" href="/assets/s5a00806c43.css">
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Blockheight" href="/feed.xml"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://dailycryptonews.github.io/xmr-bridge-deposit-confirmations-how-the-wait-works/#webpage",
+      "url": "https://dailycryptonews.github.io/xmr-bridge-deposit-confirmations-how-the-wait-works/",
+      "name": "XMR Bridge Deposit Confirmations Explained | Blockheight",
+      "isPartOf": {
+        "@id": "https://dailycryptonews.github.io/#website"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dailycryptonews.github.io/xmr-bridge-deposit-confirmations-how-the-wait-works/#article",
+      "headline": "XMR Bridge Deposit Confirmations: How the Wait Works",
+      "isAccessibleForFree": true,
+      "description": "XMR deposits pass from wallet broadcast to Monero confirmation, then wait for the bridge’s own threshold before the destination asset is released.",
+      "datePublished": "2026-10-03T18:45:39+00:00",
+      "dateModified": "2026-10-03T18:45:39+00:00",
+      "url": "https://dailycryptonews.github.io/xmr-bridge-deposit-confirmations-how-the-wait-works/",
+      "mainEntityOfPage": {
+        "@id": "https://dailycryptonews.github.io/xmr-bridge-deposit-confirmations-how-the-wait-works/#webpage"
+      },
+      "inLanguage": "en-US",
+      "author": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "publisher": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "wordCount": 430,
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/covers/xmr-bridge-deposit-confirmations-how-the-wait-works.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dailycryptonews.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "XMR Bridge Deposit Confirmations: How the Wait Works",
+          "item": "https://dailycryptonews.github.io/xmr-bridge-deposit-confirmations-how-the-wait-works/"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dailycryptonews.github.io/#org",
+      "name": "Blockheight",
+      "url": "https://dailycryptonews.github.io/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/apple-touch-icon.png"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/og.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dailycryptonews.github.io/#website",
+      "name": "Blockheight",
+      "url": "https://dailycryptonews.github.io/",
+      "publisher": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "inLanguage": "en-US",
+      "description": "Blockheight reports crypto news: Bitcoin and Ethereum, DeFi protocols, exchanges, stablecoins, regulation, security incidents and market structure."
+    }
+  ]
+}
+</script>
+</head>
+<body data-page="post">
+<a class="s61e7d91" href="#main">Skip to the article</a>
+<header class="s4667490">
+  <div class="s7825b27 s085acb6">
+    <a class="s901b840" href="/">Blockheight</a>
+    <p class="s7d91c17">Crypto markets, protocols, policy</p>
+  </div>
+</header>
+
+<main id="main">
+<article class="s7825b27 sa8bd275">
+  <header class="s769f2c7">
+    <h1 class="s886ff09 sab937f5">XMR Bridge Deposit Confirmations: How the Wait Works</h1>
+<p class="sc8b1df6">XMR deposits pass from wallet broadcast to Monero confirmation, then wait for the bridge’s own threshold before the destination asset is released.</p>    <p class="s5b3ce67 s484af67"><span>The Blockheight Editors</span><span class="s2fb39ad">·</span><time datetime="2026-10-03T18:45:39+00:00">Oct 3, 2026</time><span class="s2fb39ad">·</span><span>2 min read</span></p>
+  </header>
+<img fetchpriority="high" class="s05e8fe3 s98e12d5" src="/assets/covers/xmr-bridge-deposit-confirmations-how-the-wait-works.jpg" alt="XMR Bridge Deposit Confirmations: How the Wait Works">  <div class="s4eabe60">
+    <p>An XMR bridge deposit is ready for the next step only after Monero records it and the bridge reaches its own confirmation threshold. Those are separate checks: a wallet can show a transaction before the bridge accepts it.</p>
+
+<h2>What counts as an XMR deposit confirmation?</h2>
+<p>A Monero confirmation means a miner has included the transaction in a block. Before that, it may be visible to nodes in the mempool, but it is not yet part of the confirmed blockchain. Monero’s technical documentation gives the network a two-minute target block time, so estimates based on block counts are approximate.</p>
+<p>After inclusion, each new block adds another confirmation. Monero’s merchant guide says funds generally need 10 confirmations before they can be spent; that wallet-level unlock rule does not set every bridge’s deposit threshold. For the checks to make before sending, see <a href="https://blockchainnewshub.github.io/xmr-bridge-swaps-hinge-on-three-address-checks/" rel="noopener">the xmr bridge’s three address checks</a>.</p>
+
+<h2>Why does an XMR bridge keep waiting?</h2>
+<p>The bridge waits to reduce the chance that a reorganized block removes the deposit before it acts on it. Monero’s documentation advises waiting for at least 10 confirmations before shipping valuable goods, while bridge operators choose their own threshold for releasing or swapping funds.</p>
+<p>That means a wallet showing “confirmed” does not necessarily mean the bridge has finished. The bridge must also detect the right incoming payment and complete its own processing; its status page or instructions are the source for its required count and next step.</p>
+
+<ul>
+<li><strong>Pending:</strong> The wallet has broadcast the transaction, but it has not appeared in a block.</li>
+<li><strong>Confirming:</strong> Monero has included it, and more blocks are being added.</li>
+<li><strong>Threshold reached:</strong> The deposit has met the bridge’s stated confirmation requirement.</li>
+<li><strong>Processing or complete:</strong> The bridge is carrying out or has finished the destination-side step.</li>
+</ul>
+
+<h2>How can you tell where a deposit is stuck?</h2>
+<p>Compare the transaction status in your wallet with the deposit status shown by the bridge. If the wallet still shows pending, the transaction is waiting for Monero inclusion; if confirmations are increasing but the bridge has not advanced, check the bridge’s required count and whether its deposit instructions match your payment.</p>
+<p>Use the destination asset and network specified by the bridge, and keep the transaction details until the swap finishes. A confirmation count is evidence that Monero recorded the deposit; it is not, on its own, proof that the bridge has released the other asset.</p>
+
+<p>The next step is the bridge’s own threshold and processing status. The exact count, processing time and handling of a delayed or unmatched deposit depend on the bridge and should be confirmed in its instructions.</p>
+  </div>
+  <section class="s7f17d39">
+    <h2 class="s5ba591d sab937f5">Related stories</h2>
+    <ul class="s02fc2ee">
+      <li><a href="/paying-an-onchain-freelancer-from-monero/">Paying an onchain freelancer from Monero</a></li>
+      <li><a href="/sec-proposes-conditional-crypto-self-custody-for-advisers-and-funds/">SEC proposes conditional crypto self-custody for advisers and funds</a></li>
+      <li><a href="/sec-proposes-new-custody-rules-for-advisers-and-funds/">SEC proposes new custody rules for advisers and funds</a></li>
+      <li><a href="/poocoin-choose-charts-wallet-views-or-chain-data/">Poocoin: Choose Charts, Wallet Views or Chain Data</a></li>
+    </ul>
+  </section>
+</article>
+</main>
+
+<footer class="sb3ab2f7">
+  <div class="s7825b27 s2fa37d7">
+    <p class="s58367aa">Blockheight</p>
+    <nav class="sc3e5219" aria-label="Site">
+      <ul>
+<li><a href="/">Front page</a></li><li><a href="/about/">Masthead</a></li><li><a href="/privacy/">Privacy &amp; terms</a></li><li><a href="/archive/">All articles</a></li>      </ul>
+    </nav>
+    <p class="sa2e7243">An independent outlet. Nothing here is financial advice.</p>
+    <p class="s7ab9fac">© 2026 Blockheight</p>
+  </div>
+</footer>
+</body>
+</html>
