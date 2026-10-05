@@ -814,6 +814,8 @@ html, body{max-width:100%; overflow-x:hidden}
 
 main img, main svg, main video, main iframe, main table{max-width:100% !important}
 
+:where(main img[width][height]){height:auto}
+
 main > :not(.s7825b27):not(:has(.s7825b27)){padding-inline:clamp(1rem, 4vw, 2.4rem); box-sizing:border-box}
 
 body > header > :not(.s7825b27):not(:has(.s7825b27)), body > footer > :not(.s7825b27):not(:has(.s7825b27)){padding-inline:clamp(1rem, 4vw, 2.4rem); box-sizing:border-box}
