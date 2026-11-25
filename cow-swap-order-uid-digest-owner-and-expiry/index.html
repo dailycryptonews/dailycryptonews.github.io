@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en-US" data-mode="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What Is Inside a DEX Order UID? CoW Swap Layout</title>
+<meta name="description" content="What is inside a DEX order UID? CoW Swap packs a 32-byte EIP-712 digest, 20-byte owner address and 4-byte validTo expiry into 56 bytes.">
+<link rel="canonical" href="https://dailycryptonews.github.io/cow-swap-order-uid-digest-owner-and-expiry/">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="theme-color" content="#ffffff">
+<meta name="author" content="The Blockheight Editors"><meta property="og:type" content="article">
+<meta property="og:site_name" content="Blockheight">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="CoW Swap order UID: digest, owner and expiry">
+<meta property="og:description" content="What is inside a DEX order UID? CoW Swap packs a 32-byte EIP-712 digest, 20-byte owner address and 4-byte validTo expiry into 56 bytes.">
+<meta property="og:url" content="https://dailycryptonews.github.io/cow-swap-order-uid-digest-owner-and-expiry/">
+<meta property="og:image" content="https://dailycryptonews.github.io/assets/covers/cow-swap-order-uid-digest-owner-and-expiry-og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="CoW Swap order UID: digest, owner and expiry"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CoW Swap order UID: digest, owner and expiry">
+<meta name="twitter:description" content="What is inside a DEX order UID? CoW Swap packs a 32-byte EIP-712 digest, 20-byte owner address and 4-byte validTo expiry into 56 bytes.">
+<meta property="article:published_time" content="2026-11-25T13:31:22+00:00">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&amp;family=Inter:wght@400;500;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap">
+<link rel="stylesheet" href="/assets/s5a00806c43.css">
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Blockheight" href="/feed.xml"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://dailycryptonews.github.io/cow-swap-order-uid-digest-owner-and-expiry/#webpage",
+      "url": "https://dailycryptonews.github.io/cow-swap-order-uid-digest-owner-and-expiry/",
+      "name": "What Is Inside a DEX Order UID? CoW Swap Layout",
+      "isPartOf": {
+        "@id": "https://dailycryptonews.github.io/#website"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dailycryptonews.github.io/cow-swap-order-uid-digest-owner-and-expiry/#article",
+      "headline": "CoW Swap order UID: digest, owner and expiry",
+      "isAccessibleForFree": true,
+      "description": "What is inside a DEX order UID? CoW Swap packs a 32-byte EIP-712 digest, 20-byte owner address and 4-byte validTo expiry into 56 bytes.",
+      "datePublished": "2026-11-25T13:31:22+00:00",
+      "dateModified": "2026-11-25T13:31:22+00:00",
+      "url": "https://dailycryptonews.github.io/cow-swap-order-uid-digest-owner-and-expiry/",
+      "mainEntityOfPage": {
+        "@id": "https://dailycryptonews.github.io/cow-swap-order-uid-digest-owner-and-expiry/#webpage"
+      },
+      "inLanguage": "en-US",
+      "author": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "publisher": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "wordCount": 343,
+      "image": [
+        {
+          "@type": "ImageObject",
+          "url": "https://dailycryptonews.github.io/assets/covers/cow-swap-order-uid-digest-owner-and-expiry-16x9.jpg",
+          "width": 1200,
+          "height": 675
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://dailycryptonews.github.io/assets/covers/cow-swap-order-uid-digest-owner-and-expiry-4x3.jpg",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://dailycryptonews.github.io/assets/covers/cow-swap-order-uid-digest-owner-and-expiry-1x1.jpg",
+          "width": 1200,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dailycryptonews.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "CoW Swap order UID: digest, owner and expiry",
+          "item": "https://dailycryptonews.github.io/cow-swap-order-uid-digest-owner-and-expiry/"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dailycryptonews.github.io/#org",
+      "name": "Blockheight",
+      "url": "https://dailycryptonews.github.io/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/apple-touch-icon.png"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://dailycryptonews.github.io/assets/og.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publishingPrinciples": "https://dailycryptonews.github.io/editorial-standards/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dailycryptonews.github.io/#website",
+      "name": "Blockheight",
+      "url": "https://dailycryptonews.github.io/",
+      "publisher": {
+        "@id": "https://dailycryptonews.github.io/#org"
+      },
+      "inLanguage": "en-US",
+      "description": "Blockheight reports crypto news: Bitcoin and Ethereum, DeFi protocols, exchanges, stablecoins, regulation, security incidents and market structure."
+    }
+  ]
+}
+</script>
+</head>
+<body data-page="post">
+<a class="s61e7d91" href="#main">Skip to the article</a>
+<header class="s4667490">
+  <div class="s7825b27 s085acb6">
+    <a class="s901b840" href="/">Blockheight</a>
+    <p class="s7d91c17">Crypto markets, protocols, policy</p>
+  </div>
+</header>
+
+<main id="main">
+<article class="s7825b27 sa8bd275">
+  <header class="s769f2c7">
+    <h1 class="s886ff09 sab937f5">CoW Swap order UID: digest, owner and expiry</h1>
+<p class="sc8b1df6">What is inside a DEX order UID? CoW Swap packs a 32-byte EIP-712 digest, 20-byte owner address and 4-byte validTo expiry into 56 bytes.</p>    <p class="s5b3ce67 s484af67"><span>The Blockheight Editors</span><span class="s2fb39ad">·</span><time datetime="2026-11-25T13:31:22+00:00">Nov 25, 2026 · 13:31 UTC</time><span class="s2fb39ad">·</span><span>2 min read</span></p>
+  </header>
+<img width="1200" height="630" fetchpriority="high" class="s05e8fe3 s98e12d5" src="/assets/covers/cow-swap-order-uid-digest-owner-and-expiry.jpg" alt="CoW Swap order UID: digest, owner and expiry">  <div class="s4eabe60">
+    <p>An intent order’s UID contains a 32-byte EIP-712 digest, a 20-byte owner address and a 4-byte expiry called <em>validTo</em>. CoW Protocol documentation specifies a total of 56 bytes, displayed in CoW Explorer as <code>0x</code> followed by 112 hexadecimal characters.</p>
+<h2>What are the parts of a CoW Swap order UID?</h2>
+<p>The CoW Protocol order UID layout assigns each part a fixed position:</p>
+<ul>
+<li>Bytes 1–32: the EIP-712 order digest.</li>
+<li>Bytes 33–52: the owner address.</li>
+<li>Bytes 53–56: the <em>validTo</em> expiry.</li>
+</ul>
+<p>In <code>GPv2Order.sol</code>, the contract packs the digest, owner and <em>validTo</em> in that order. The EIP-712 digest represents the signed order data; the UID carries that digest alongside the owner and expiry. The <code>GPv2Settlement</code> contract can use the packed fields to identify and check the order.</p>
+<p>That fixed layout is useful when reading a copied ID, including one from CoW Explorer: the owner and expiry are visible in the UID itself. For more on how cowswap surplus relates to an order’s execution outcome, see <a href="https://dune.com/jonny_defi/how-to-query-order-status-via-the-cow-protocol-api-and-see-fills" rel="noopener">cowswap surplus</a>.</p>
+<h2>How do you read the expiry from the UID?</h2>
+<p>The final eight hexadecimal characters encode <em>validTo</em> as a 32-bit unsigned Unix timestamp. Remove the leading <code>0x</code> before counting characters: the first 64 hex characters are the digest, the next 40 are the owner, and the last eight are the expiry.</p>
+<p>Say a CoW Swap order ID is open in CoW Explorer. Copy its last eight hex characters and convert that hexadecimal value to decimal; the result is the Unix time when the order stops being valid. No API call is needed to read the owner address or expiry, though the digest itself remains a hash rather than a readable list of order fields.</p>
+<p>The position of each field is fixed by the packing code in <code>GPv2Order.sol</code>, and the EIP-712 rules define how the order digest is constructed. The UID therefore lets a reader inspect two order parameters directly while retaining a compact identifier for the signed order.</p>
+<ul>
+<li>Bytes 1–32: EIP-712 digest.</li>
+<li>Bytes 33–52: owner address.</li>
+<li>Bytes 53–56: <em>validTo</em>, readable as a Unix timestamp after hex conversion.</li>
+</ul>
+  </div>
+  <section class="s7f17d39">
+    <h2 class="s5ba591d sab937f5">Related stories</h2>
+    <ul class="s02fc2ee">
+      <li><a href="/twamm-long-term-order-choose-a-window-that-meets-your-deadline/">TWAMM long-term order: Choose a window that meets your deadline</a></li>
+      <li><a href="/how-to-verify-a-bridge-spender-address-before-approving-tokens/">How to Verify a Bridge Spender Address Before Approving Tokens</a></li>
+      <li><a href="/doj-seeks-forfeiture-of-1-17b-in-usdc-tied-to-binance-hack/">DOJ seeks forfeiture of $1.17B in USDC tied to Binance hack</a></li>
+      <li><a href="/what-each-bridge-prompt-authorizes/">What Each Bridge Prompt Authorizes</a></li>
+    </ul>
+  </section>
+</article>
+</main>
+
+<footer class="sb3ab2f7">
+  <div class="s7825b27 s2fa37d7">
+    <p class="s58367aa">Blockheight</p>
+    <nav class="sc3e5219" aria-label="Site">
+      <ul>
+<li><a href="/">Front page</a></li><li><a href="/about/">Masthead</a></li><li><a href="/privacy/">Privacy &amp; terms</a></li><li><a href="/archive/">All articles</a></li><li><a href="/editorial-standards/">Editorial standards</a></li>      </ul>
+    </nav>
+    <p class="sa2e7243">News and analysis for information, not financial advice.</p>
+    <p class="s7ab9fac">© 2026 Blockheight</p>
+  </div>
+</footer>
+</body>
+</html>
